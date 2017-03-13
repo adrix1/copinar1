@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>NEURO_EXPERT GRÁFICA</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<nav class="navbar navbar-default"><!-- Código del nav, falta centrar en la row -->
+					<div class="navbar-default">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="myNav">
+						<ul class="nav navbar-nav navbar-left">
+							<li><img class="img-responsive" id="logo" src="imagenes/segundologo.png" alt="segundo logo blanco"></li>
+						</ul>
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="">EPILEPSIA</a></li>
+							<li><a href="">NEWSLETTER</a></li>
+							<li><a href="caseshare.html">CASE SHARE</a></li>
+							<li><a href="">BIBLIOTECA</a></li>
+							<li><a href="registro.html">REGISTRO</a></li>
+							<li><a data-fancybox data-src="#hidden-content" href="javascript:;">LOGIN</a></li><!--Botón del modal-->
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><img class="img-responsive search" src="imagenes/search.png" alt="Icono de color blanco de busqueda"></li>
+						</ul>
+					</div>
+				</nav>
+				<!--Inicia código modal-->
+				<div style="display: none;" id="hidden-content">
+					<h4 class="text-center modalLogin">INICIA SESIÓN AQUÍ</h4>
+					<h1 class="text-center modalLogin">LOGIN</h1>
+					<form>
+						<div class="form-group">
+							<input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="EMAIL" autofocus="" autocomplete="" required="">
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control text-center" placeholder="CONTRASEÑA" autofocus="" autocomplete="" required="">
+							<button type="submit" class="btn" id="boton2">ENVIAR</button>
+						</div>					
+					</form>
+				</div><!--Termina código modal-->
+			</header>
+			<section class="section-imagen5"><!--Inicia sección de background-->
+				<div class="row text-center">
+					<div class="col-sm-12 col-xs-12">
+						<h4>PRESENTACIÓN DE CASO CLÍNICO</h4>
+						<h1>CASO CLÍNICO 1</h1>
+					</div>
+				</div>				
+			</section><!--Termina sección de background-->
+			<section>
+				<ul class="nav nav-tabs">
+					<li role="presentation"><a href="caso.html">CASO</a></li>
+					<li role="presentation"><a href="evidencia2.html">EVIDENCIA</a></li>
+					<li role="presentation"><a href="diagnostico.html">DIAGNÓSTICO</a></li>
+					<li role="presentation"><a href="grafica.html">GRÁFICA</a></li>
+					<li role="presentation"><a href="agradecimiento.html">AGRADECIMIENTO</a></li>
+					<ul class="nav nav-tabs navbar-right">					
+						<li role="presentation"><a href="caseshare.html">REGRESAR A CASE SHARE</a></li>
+					</ul>
+				</ul>					
+				<div class="row text-center perfil">
+					<div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+						<br>
+						<h3>GRÁFICA DE RESPUESTAS</h3>
+					</div>
+				</div>
+				<div class="row text-center perfil">
+					<div class="col-sm-8 col-sm-offset-5 col-xs-8 col-xs-offset-5 graficos">												
+					</div>
+				</div>
+				<div class="row text-center perfil">
+					<div class="col-sm-8 col-sm-offset-5 col-xs-8 col-xs-offset-5 graficos1">												
+					</div>
+				</div>
+				<div class="row text-center perfil">
+					<div class="col-sm-8 col-sm-offset-5 col-xs-8 col-xs-offset-5 graficos">												
+					</div>
+				</div>
+				<div class="row text-center perfil">
+					<div class="col-sm-8 col-sm-offset-5 col-xs-8 col-xs-offset-5 graficos1">												
+					</div>
+				</div>
+			</section>
+			<section class="section-imagen2"><!--Inicia Sección de Contácto-->
+				<div class="row text-center">
+					<div class="col-sm-12 col-xs-12">
+						<h4>CONTÁCTANOS</h4>
+						<hr>
+					</div>
+				</div>
+				<form action="" method="get">
+					<div class="row text-center">			
+						<div class="col-sm-6 col-xs-6">		
+							<div class="form-group">
+								<input class="form-control" type="text" name="nombre" placeholder="NOMBRE" autofocus="" autocomplete="" required="">
+							</div>
+						</div>	
+						<div class="col-sm-6 col-xs-6">
+							<div class="form-group">
+								<input class="form-control" type="text" name="telefono" placeholder="TELÉFONO" autofocus="" autocomplete="" required="">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<input class="form-control" type="text" name="email" placeholder="EMAIL" autofocus="" autocomplete="" required="">
+					</div>
+					<div class="form-group">
+						<textarea name="mensaje" id="" style="width:100%; height: 15em;"  placeholder="MENSAJE"></textarea>
+					</div>
+					<div class="row text-center">			
+						<div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+							<button class="btn" id="boton">ENVIAR MENSAJE</button>
+						</div>
+					</div>
+				</form>
+			</section><!--Termina Sección de Contácto-->
+			<section class="section-imagen3"><!--Inicia la sección 7 Redes Sociales. Falta alinear bien la imágen y los iconos-->
+				<div class="row text-center redesSociales">
+					<div class="col-sm-12 col-xs-12">
+						<img src="imagenes/segundologo.png" alt="segundo logo blanco" class="img-responsive seg-icono">
+						<ul>
+							<li><img src="imagenes/iconoface.png" alt="redes sociales face " class="img-responsive"></li>
+							<li><img src="imagenes/tiwtter.png" alt="redes sociales twitter" class="img-responsive"></li>
+							<li><img src="imagenes/instagram.png" alt="redes sociales instagram" class="img-responsive"></li>
+						</ul>
+					</div>
+				</div>
+			</section><!--Termina la sección 7 Redes Sociales-->
+			<footer><!--Inicia Footer-->
+				<div class="row text-center">
+					<div class="col-sm-12 col-xs-12">
+						<p>COPYRIGHT NEURO EXPERT 2017. ALL RIGHTS RESERVED</p>
+					</div>
+				</div>
+			</footer><!--Termina Footer-->
+		</div>
+		<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+	</body>
+</html>

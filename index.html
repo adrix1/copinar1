@@ -6,6 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
 	</head>
 	<body>
 		<div class="container">
@@ -41,18 +43,34 @@
 						</div>
 						<div class="collapse navbar-collapse" id="myNav">
 							<ul class="nav navbar-nav">
-								<li><a href="">HOME</a></li>
+								<li><a href="index.html">HOME</a></li>
 								<li><a href="">EPILEPSIA</a></li>
 								<li><a href="">NEWSLETTER</a></li>
-								<li><a href="">CASE SHARE</a></li>
+								<li><a href="caseshare.html">CASE SHARE</a></li>
 								<li><a href="">BIBLIOTECA</a></li>
+								<li><a href="registro.html">REGISTRO</a></li>
+								<li><a data-fancybox data-src="#hidden-content" href="javascript:;">LOGIN</a></li><!--Botón del modal-->
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
-								<li><img class="img-responsive search" src="imagenes/search.png" alt="Icono de color blanco de busqueda"></li>
+								<li><img class="img-responsive search" src="imagenes/search.png" alt="Icono de color blanco de busqueda">	</li>
 							</ul>
 						</div>
 					</div>
 				</nav>
+				<!--Inicia código modal-->
+				<div style="display: none;" id="hidden-content">
+					<h4 class="text-center modalLogin">INICIA SESIÓN AQUÍ</h4>
+					<h1 class="text-center modalLogin">LOGIN</h1>
+					<form>
+						<div class="form-group">
+							<input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="EMAIL" autofocus="" autocomplete="" required="">
+						</div>
+						<div class="form-group">
+							<input type="password" class="form-control text-center" placeholder="CONTRASEÑA" autofocus="" autocomplete="" required="">
+							<button type="submit" class="btn" id="boton2">ENVIAR</button>
+						</div>					
+					</form>
+				</div><!--Termina código modal-->
 			</header><!--Termina el header parte superior y menú-->
 			<section class="section-imagen"><!--Inicia seccion 1 Sliders. Poner el slider, investigar cómo poner los caption, investigar como hacer parallax-->
 				<div class="row text-center">
@@ -211,7 +229,7 @@
 						</div>	
 						<div class="col-sm-6 col-xs-6">
 							<div class="form-group">
-								<input class="form-control" type="text" name="telefono" placeholder="TELEFONO" autofocus="" autocomplete="" required="">
+								<input class="form-control" type="text" name="telefono" placeholder="TELÉFONO" autofocus="" autocomplete="" required="">
 							</div>
 						</div>
 					</div>
@@ -219,7 +237,7 @@
 						<input class="form-control" type="text" name="email" placeholder="EMAIL" autofocus="" autocomplete="" required="">
 					</div>
 					<div class="form-group">
-						<textarea name="mensaje" id="" style="width:100%; height: 15em;"  placeholder="MENSAJE"></textarea>
+						<textarea name="mensaje" id="" style="width:100%; height: 15em;" placeholder="MENSAJE"></textarea>
 					</div>
 					<div class="row text-center">			
 						<div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
@@ -229,7 +247,7 @@
 				</form>
 			</section><!--Termina la sección 6 Contácto-->
 			<section class="section-imagen3"><!--Inicia la sección 7 Redes Sociales. Falta alinear bien la imágen y los iconos-->
-				<div class="row text-center">
+				<div class="row text-center redesSociales">
 					<div class="col-sm-12 col-xs-12">
 						<img src="imagenes/segundologo.png" alt="segundo logo blanco" class="img-responsive seg-icono">
 						<ul>
@@ -241,15 +259,19 @@
 				</div>
 			</section><!--Termina la sección 7 Redes Sociales-->
 			<footer><!--Inicia Footer-->
-				<div class="row text-center" id"reserved">
+				<div class="row text-center">
 					<div class="col-sm-12 col-xs-12">
 						<p>COPYRIGHT NEURO EXPERT 2017. ALL RIGHTS RESERVED</p>
 					</div>
 				</div>
 			</footer><!--Termina Footer-->
 		</div>
-			<!--Scripts de JavaScript-->
-			<script src="js/jquery.js"></script>
-			<script src="js/bootstrap.min.js"></script>
+		<!--Scripts de JavaScript>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script-->
+		
+		<!-- JS -->
+		<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
 	</body>
 </html>

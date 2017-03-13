@@ -1,119 +1,371 @@
+/*Código index*/
 @font-face{
-  font-family: Avenir;
-  src: url(../fonts/);
+	font-family: Avenir;
+	src: url(../fonts/);
 }
-.container{
-  width: 1280px !important;
- }
+.container {
+	width: 1280px !important;
+}
 body, html {
-  background-color: white;
-  width: 100%;
-  font-family: Avenir;	
+	background-color: white;
+	width: 100%;
+	font-family: Avenir;
 }
-.header-icons{
+.header-icons {
 	float: left;
 	width: 10%;
 	height: auto;
 }
 #neuroxpert {
-  margin-top: 4%;
-  margin-bottom: 4%;	
+	margin-top: 4%;
+	margin-bottom: 4%;
 }
-.navbar-default{
-	background-color: #21ABB5;
+.navbar, navbar-default {
+	background-color: #63aab3;
 	color: white !important;
 	padding-bottom: 2%;
+	margin-bottom: 0%;
+	padding-top: 2%;
 }
-.section-imagen, .section-imagen1, .section-imagen2, .section-imagen3{
+.section-imagen, .section-imagen1, .section-imagen2, .section-imagen3, .section-imagen4, .section-imagen5 {
 	background-position: center;
 	background-size: 100% 100%;
 	color: white;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
-.section-imagen{
+.section-imagen {
 	background-image: url(../imagenes/background1.jpg);
 	padding: 8em;
 	margin-top: -2%;
 }
-button{
+button {
 	border-radius: 50%;
 }
-.section-blue{
+.section-blue {
 	background-color: #21ABB5;
 	color: white;
 }
-img{
+img {
 	display: block;
 	margin: auto;
 }
-.section-imagen1{
+.section-imagen1 {
 	background-image: url(../imagenes/background2.png);
 	padding: 6em;
+	margin-top: 3%;
 }
-#boton{
-	background-color: #21ABB5;
+#boton {
+	background-color: #63aab3;
 	color: white;
 	padding: .9em;
 }
-hr{
+hr {
 	width: 40%;
 }
-h3, h5{
+h3, h5 {
 	color: #21ABB5;
 }
-.section-imagen2{
+.section-imagen2 {
 	background-image: url(../imagenes/background3.png);
 	padding: 5em;
+	margin-top: 3%;	
 }
-.form-control, textarea{
+.form-control, textarea {
 	background-color: rgba(0,0,0,.075);
 }
-.section-imagen3{
+.section-imagen3 {
 	background-image: url(../imagenes/background4.jpg);
+	margin-top: 3%;
+	height: 20em;
 }
-li{
+li {
 	display: inline-block;
 }
-.seg-icono{
+.seg-icono {
 	padding: 1.2em;
 }
-footer{
-	background-color: #008696;
-	color: white;
-	padding: 2em;
+.redesSociales {
+	padding-top: 3%;
 }
-#ver_mas{
+footer {
+	background-color: #228794;
+	color: white;
+	height: 6em;
+	padding-top: 3%;
+}
+#ver_mas {
 	background-color: white;
 	color: #21ABB5;
 	font-weight: bold;
 	padding: .8em;
 	border-radius: 5%;
 }
-#btn-contact{
+#btn-contact {
 	background-color:  rgba(0,0,0,.075);
 	color: white;
 	border-color: white;
 	padding: .8em;
 	border-radius: 5%;
 }
-.curita{
+.curita {
 	width: auto;
 	height: 30%;
 }
-#reserved {
-	margin-bottom: 4%;
+/*Termina código index*/
+
+/*Código CSS para modal*/
+.modalLogin {
+	color: #6db0b8 !important;
+}
+/*Código CSS para modal*/
+
+/*Código hoja de registro*/
+#logo {
+	width: 75%;
+}
+.search {
+	padding-right: 15%;
+	margin-top: 5%;
+}
+.section-imagen4 {
+	background-image: url(../imagenes/sliderregistro.jpg);
+	height: 20em;
+	margin-bottom: 3%;
+}
+#foto {
+	background-color: #63aab3;
+	color: white;
+	height: 12em;
+	width: 15%;
+	padding-top: 4%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+#boton1, #boton2 {
+	background-color: #d15a2f;
+	color: white;
+	height: 5em;
+	width: 25%;
+}
+.form-control, formulario {
+	color: #6db0b8 !important;
+}
+/*Termina código hoja de registro*/
+
+/*Código Caseshare*/
+/*Hover imagenes*/
+.imagenCase {
+	padding: 0% !important;
+	margin: 1%;
+	width: 23%;	
+}
+#caseshare1 {
+	background-image: url("../imagenes/caseshare1.jpg");
+	height: 15em !important;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#caseshare2 {
+	background-image: url("../imagenes/caseshare2.jpg");
+	height: 15em !important;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#caseshare3 {
+	background-image: url("../imagenes/caseshare3.jpg");
+	height: 15em !important;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#caseshare4 {
+	background-image: url("../imagenes/caseshare4.jpg");
+	height: 15em !important;
+	background-size: cover;
+	color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#caseshare5 {
+	background-image: url("../imagenes/caseshare5.jpg");
+	height: 15em !important;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#caseshare6 {
+	background-image: url("../imagenes/caseshare6.jpg");
+	height: 15em !important;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#caseshare7 {
+	background-image: url("../imagenes/caseshare7.jpg");
+	height: 15em !important;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#caseshare8 {
+	background-image: url("../imagenes/caseshare8.jpg");
+	height: 15em !important;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#caseshare9 {
+	background-image: url("../imagenes/caseshare9.jpg");
+	height: 15em !important;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#caseshare10 {
+	background-image: url("../imagenes/caseshare10.jpg");
+	height: 15em !important;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#caseshare11 {
+	background-image: url("../imagenes/caseshare11.jpg");
+	height: 15em !important;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#caseshare12 {
+	background-image: url("../imagenes/caseshare12.jpg");
+	height: 15em !important;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#caseshare1:hover .base{
+	opacity: 1;
+}
+#caseshare2:hover .base{
+	opacity: 1;
+}
+#caseshare3:hover .base{
+	opacity: 1;
+}
+#caseshare4:hover .base{
+	opacity: 1;
+}
+#caseshare5:hover .base{
+	opacity: 1;
+}
+#caseshare6:hover .base{
+	opacity: 1;
+}
+#caseshare7:hover .base{
+	opacity: 1;
+}
+#caseshare8:hover .base{
+	opacity: 1;
+}
+#caseshare9:hover .base{
+	opacity: 1;
+}
+#caseshare10:hover .base{
+	opacity: 1;
+}
+#caseshare11:hover .base{
+	opacity: 1;
+}
+#caseshare12:hover .base{
+	opacity: 1;
+}
+.base{
+  	height: 15em;
+  	background-color: rgba(0, 0, 000, 0.3);
+	-webkit-transition: opacity 0.3s;	
+	opacity: 0;
+}
+.vermas{
+	padding-top: 25%;
+	color: white;	
+}
+.vermas1 {
+	background-color: rgba(0, 0, 000, 0.3);	
+	color: white !important;
+	font-weight: bold;
+	padding: 1em;
+	border-radius: 5%;
+	text-decoration: none;
+}
+/*Termina código Caseshare*/
+
+/*Inicia código Caso*/
+.section-imagen5 {
+	background-image: url(../imagenes/slider_caso.jpg);
+	height: 20em;
+	margin-bottom: 3%;	
+}
+img {
+	display: inline-block;
+	margin: auto;
+}
+.perfil {
+	color: #6db0b8;
+}
+.perfil1 {
+	width: 100%;
+	height: .2em;
+	background-color: #63aab3;
+}
+#perfiles {
+	margin-top: 15%;
+}
+#casoClinico {
+	width: 100%;
+	height: 4em;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color: #d15a2f;
+	color: white;
+}
+/*Termina código Caso*/
+
+/*Inicia código Gráfica*/
+.graficos {
+	width: 30%;
+	height: 3em;
+	background-color: #63aab3;
+	margin-top: 3%;
+}
+.graficos1 {
+	width: 30%;
+	height: 3em;
+	background-color: #d15a2f;
+	margin-top: 3%;
 }
 
- /*font-size: 3vh;30% la altura del dispositivo*/
+/*font-size: 3vh;30% la altura del dispositivo*/
 /* o también
 font-size: 3vw; /*30% el ancho del dispositivo*/
 /*mediaqueries de tamaño movil*/
-
 @media (max-width: 600px) {
   h2, h1, h3, h4, h5, p {
     font-size: 3.5vh;
   }
-  .header-icons{
+  .header-icons {
 	float: left;
 	width: 30%;
 	height: auto;
