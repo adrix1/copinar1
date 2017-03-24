@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
 		<title>NEURO_EXPERT REGISTRO</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
-		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
 	</head>
 	<body>
-		<div class="container">
+		<div class="container-fluid">
 			<header>
 				<nav class="navbar navbar-default"><!-- Código del nav, falta centrar en la row -->
 					<div class="navbar-default">
@@ -34,14 +36,14 @@
 							<li><a data-fancybox data-src="#hidden-content" href="javascript:;">LOGIN</a></li><!--Botón del modal-->
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li><img class="img-responsive search" src="imagenes/search.png" alt="Icono de color blanco de busqueda"></li>
+							<input type="text" class="form-control" placeholder="Search">
 						</ul>
 					</div>
 				</nav>
 				<!--Inicia código modal-->
 				<div style="display: none;" id="hidden-content">
-					<h4 class="text-center modalLogin">INICIA SESIÓN AQUÍ</h4>
-					<h1 class="text-center modalLogin">LOGIN</h1>
+					<h4 class="text-center">INICIA SESIÓN AQUÍ</h4>
+					<h1 class="text-center">LOGIN</h1>
 					<form>
 						<div class="form-group">
 							<input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="EMAIL" autofocus="" autocomplete="" required="">
@@ -54,7 +56,7 @@
 				</div><!--Termina código modal-->
 			</header>
 			<section class="section-imagen4">
-				<div class="row text-center ">
+				<div class="row text-center">
 					<div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
 						<h4>FAVOR DE LLENAR EL</h4>
 						<h1>REGISTRO</h1>
@@ -63,43 +65,59 @@
 				</div>	
 			</section><!--Termina Sección de back-->
 			<section>
-				<div class="row text-center">
-					<div class="col-sm-9 col-sm-offset-5 col-xs-9 col-xs-offset-5" id="foto">
-						<img src="imagenes/foto.png" alt="Icono de una camara fotografica color blanca con fondo azul" class="img-responsive"> <br>
-						<p>AGREGAR FOTO</p>
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-sm-9 col-sm-offset-5 col-xs-9 col-xs-offset-5" id="foto">
+							<img src="imagenes/foto.png" alt="Icono de una camara fotografica color blanca con fondo azul" class="img-responsive"> <br>
+							<p>AGREGAR FOTO</p>
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+							<form class="formulario">
+								<div class="form-group">
+									<input type="nombre" class="form-control text-center" id="exampleInputNombre" placeholder="NOMBRE" autofocus="" autocomplete="" required="">
+								</div>
+								<div class="form-group">
+									<input type="cargo" class="form-control text-center" placeholder="ESPECIALIDAD Y CARGO" autofocus="" autocomplete="" required="">
+								</div>
+								<div class="form-group">
+									<input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="EMAIL" autofocus="" autocomplete="" required="">
+								</div>
+								<div class="form-group">
+									<input class="form-control text-center" type="number" name="telefono" placeholder="TELÉFONO" autofocus="" autocomplete="" required="">
+								</div>
+								<div class="form-group">
+									<input type="cedula" class="form-control text-center" placeholder="NÚMERO DE CÉDULA PROFESIONAL" autofocus="" autocomplete="" required="">
+								</div>
+								<div class="form-group">
+									<input type="password" class="form-control text-center" placeholder="CONTRASEÑA" autofocus="" autocomplete="" required="">
+								</div>
+								<div class="form-group">
+									<input type="password" class="form-control text-center" placeholder="*ESCRIBIR CONTRASEÑA DE NUEVO" autofocus="" autocomplete="" required="">
+								</div>
+								<div class="widget"><!--Buscar como funcionan los checkbox-->
+									<fieldset>
+										<label for="radio-1">RECIBIR NOTIFICACIONES</label>
+										<label for="radio-1">SI</label>
+										<input type="radio" name="radio-1" id="radio-1">
+										<label for="radio-2">NO</label>
+										<input type="radio" name="radio-2" id="radio-2">
+									</fieldset>
+									<fieldset>
+										<label for="radio-3">RECIBIR CORREOS ELÉCTRONICOS</label>
+										<label for="radio-3">SI</label>
+										<input type="radio" name="radio-3" id="radio-3">
+										<label for="radio-4">NO</label>
+										<input type="radio" name="radio-4" id="radio-4">
+									</fieldset>
+								</div>
+								<button type="submit" class="btn" id="boton1">ENVIAR</button>
+							</form>
+						</div>
 					</div>
 				</div>
-				<div class="row text-center">
-					<div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
-						<form class="formulario">
-							<div class="form-group">
-								<input type="nombre" class="form-control text-center" id="exampleInputNombre" placeholder="NOMBRE" autofocus="" autocomplete="" required="">
-							</div>
-							<div class="form-group">
-								<input type="cargo" class="form-control text-center" placeholder="ESPECIALIDAD Y CARGO" autofocus="" autocomplete="" required="">
-							</div>
-							<div class="form-group">
-								<input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="EMAIL" autofocus="" autocomplete="" required="">
-							</div>
-							<div class="form-group">
-								<input class="form-control text-center" type="number" name="telefono" placeholder="TELÉFONO" autofocus="" autocomplete="" required="">
-							</div>
-							<div class="form-group">
-								<input type="cedula" class="form-control text-center" placeholder="NÚMERO DE CÉDULA PROFESIONAL" autofocus="" autocomplete="" required="">
-							</div>
-							<div class="form-group">
-								<input type="password" class="form-control text-center" placeholder="CONTRASEÑA" autofocus="" autocomplete="" required="">
-							</div>
-							<div class="form-group">
-								<input type="password" class="form-control text-center" placeholder="*ESCRIBIR CONTRASEÑA DE NUEVO" autofocus="" autocomplete="" required="">
-							</div>
-							<h3>RECIBIR NOTIFICACIONES</h3>
-							<h3>RECIBIR CORREOS ELÉCTRONICOS</h3>
-							<button type="submit" class="btn" id="boton1">ENVIAR</button>
-						</form>
-					</div>
-				</div>
-			</section><!--Termina Sección de back-->	
+			</section><!--Termina Sección de back-->
 			<section class="section-imagen2"><!--Inicia Sección de Contácto-->
 				<div class="row text-center">
 					<div class="col-sm-12 col-xs-12">
@@ -153,7 +171,12 @@
 				</div>
 			</footer><!--Termina Footer-->
 		</div>
-		<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
-		<script src="js/jquery.fancybox.min.js"></script>
+		<!--Js-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<!--	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

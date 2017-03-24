@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
 		<title>NEURO_EXPERT CASE SHARE</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -10,7 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
 	</head>
 	<body>
-		<div class="container">
+		<div class="container-fluid">
 			<header>
 				<nav class="navbar navbar-default"><!-- Código del nav, falta centrar en la row -->
 					<div class="navbar-default">
@@ -34,14 +36,14 @@
 							<li><a data-fancybox data-src="#hidden-content" href="javascript:;">LOGIN</a></li><!--Botón del modal-->
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li><img class="img-responsive search" src="imagenes/search.png" alt="Icono de color blanco de busqueda"></li>
+							<input type="text" class="form-control" placeholder="Search">
 						</ul>
 					</div>
 				</nav>
 				<!--Inicia código modal-->
 				<div style="display: none;" id="hidden-content">
-					<h4 class="text-center modalLogin">INICIA SESIÓN AQUÍ</h4>
-					<h1 class="text-center modalLogin">LOGIN</h1>
+					<h4 class="text-center">INICIA SESIÓN AQUÍ</h4>
+					<h1 class="text-center">LOGIN</h1>
 					<form>
 						<div class="form-group">
 							<input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="EMAIL" autofocus="" autocomplete="" required="">
@@ -54,90 +56,114 @@
 				</div><!--Termina código modal-->
 			</header>
 			<section class="section-imagen4">
-				<div class="row text-center">
+				<div class="row text-center titulos">
 					<div class="col-sm-12 col-xs-12">
-						<p>ETERNUM STYLUM ASYLUM</p>
-						<h1>LOREM IPSUM VIDARE</h1>
-						<p>Lorem </p>
+						<p id="titulo1">ETERNUM STYLUM ASYLUM</p>
+						<h1 id="titulo">LOREM IPSUM VIDARE</h1>						
 					</div>
 				</div>
 			</section>
 			<section><!--Buscar como hacer paginación-->
-				<div class="row text-center">
-					<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare1">
-						<div class="base vermas">
-							<p>LOREM IPSUM</p>
-							<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
+				<div class="container">
+					<div class="row text-center" id="share1">
+						<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare1">
+							<div class="base vermas">
+								<p>LOREM IPSUM</p>
+								<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare2">
+							<div class="base vermas">
+								<p>LOREM IPSUM</p>
+								<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare3">
+							<div class="base vermas">
+								<p>LOREM IPSUM</p>
+								<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare4">
+							<div class="base vermas">
+								<p>LOREM IPSUM</p>
+								<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare5">
+							<div class="base vermas">
+								<p>LOREM IPSUM</p>
+								<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare6">
+							<div class="base vermas">
+								<p>LOREM IPSUM</p>
+								<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare7">
+							<div class="base vermas">
+								<p>LOREM IPSUM</p>
+								<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare8">
+							<div class="base vermas">
+								<p>LOREM IPSUM</p>
+								<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare9">
+							<div class="base vermas">
+								<p>LOREM IPSUM</p>
+								<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare10">
+							<div class="base vermas">
+								<p>LOREM IPSUM</p>
+								<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare11">
+							<div class="base vermas">
+								<p>LOREM IPSUM</p>
+								<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare12">
+							<div class="base vermas">
+								<p>LOREM IPSUM</p>
+								<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
+							</div>
 						</div>
 					</div>
-					<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare2">
-						<div class="base vermas">
-							<p>LOREM IPSUM</p>
-							<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
-						</div>
-					</div>
-					<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare3">
-						<div class="base vermas">
-							<p>LOREM IPSUM</p>
-							<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
-						</div>
-					</div>
-					<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare4">
-						<div class="base vermas">
-							<p>LOREM IPSUM</p>
-							<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
-						</div>
-					</div>
-					<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare5">
-						<div class="base vermas">
-							<p>LOREM IPSUM</p>
-							<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
-						</div>
-					</div>
-					<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare6">
-						<div class="base vermas">
-							<p>LOREM IPSUM</p>
-							<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
-						</div>
-					</div>
-					<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare7">
-						<div class="base vermas">
-							<p>LOREM IPSUM</p>
-							<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
-						</div>
-					</div>
-					<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare8">
-						<div class="base vermas">
-							<p>LOREM IPSUM</p>
-							<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
-						</div>
-					</div>
-					<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare9">
-						<div class="base vermas">
-							<p>LOREM IPSUM</p>
-							<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
-						</div>
-					</div>
-					<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare10">
-						<div class="base vermas">
-							<p>LOREM IPSUM</p>
-							<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
-						</div>
-					</div>
-					<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare11">
-						<div class="base vermas">
-							<p>LOREM IPSUM</p>
-							<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
-						</div>
-					</div>
-					<div class="col-sm-3 col-xs-3 imagenCase" id="caseshare12">
-						<div class="base vermas">
-							<p>LOREM IPSUM</p>
-							<button type="submit" class="btn vermas1"><a href="paso1.html">VER MÁS</a></button>
-						</div>
-					</div>
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-5 col-xs-9 col-xs-offset-2">
+							<nav aria-label="Page navigation">
+								<ul class="pagination">
+									<li>
+										<a href="#" aria-label="Previous">
+											<span aria-hidden="true">&laquo;</span>
+										</a>
+									</li>
+									<li><a href="share1">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">5</a></li>
+									<li>
+										<a href="#" aria-label="Next">
+											<span aria-hidden="true">&raquo;</span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>	
+					</div>					
 				</div>
-			</section>
+			</section>			
 			<section class="section-imagen2"><!--Inicia Sección de Contácto-->
 				<div class="row text-center">
 					<div class="col-sm-12 col-xs-12">
@@ -171,7 +197,7 @@
 					</div>
 				</form>
 			</section><!--Termina Sección de Contácto-->
-			<section class="section-imagen3"><!--Inicia la sección 7 Redes Sociales. Falta alinear bien la imágen y los iconos-->
+			<section class="section-imagen3"><!--Inicia la sección 7 Redes Sociales.-->
 				<div class="row text-center redesSociales">
 					<div class="col-sm-12 col-xs-12">
 						<img src="imagenes/segundologo.png" alt="segundo logo blanco" class="img-responsive seg-icono">
@@ -191,7 +217,9 @@
 				</div>
 			</footer><!--Termina Footer-->
 		</div>
-		<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
-		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
