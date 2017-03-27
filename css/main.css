@@ -219,7 +219,11 @@ footer {
 .imagenCase {
 	padding: 0% !important;
 	margin: 1%;
-	width: 23%;	
+	width: 23%;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	transition: filter 0.4s;
+	-webkit-transition: -webkit-filter 1s;
 }
 #caseshare1 {
 	background-image: url("../imagenes/caseshare1.jpg");
@@ -319,6 +323,8 @@ footer {
 }
 #caseshare1:hover .base{
 	opacity: 1;
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
 }
 #caseshare2:hover .base{
 	opacity: 1;
@@ -356,7 +362,7 @@ footer {
 .base{
   	height: 8.8em;
   	background-color: rgba(0, 0, 000, 0.3);
-	-webkit-transition: opacity 0.3s;	
+	-webkit-transition: opacity 0.3s;
 	opacity: 0;
 }
 .titulos {
@@ -412,6 +418,7 @@ footer {
 
 .perfil {
 	color: #6db0b8;
+	margin-top: 3%;
 }
 .perfil1 {
 	width: 100%;
@@ -488,6 +495,13 @@ img {
 	width: 30%;
 	height: 3em;
 	background-color: #d15a2f;
+}
+#regreso2 {
+	width: 50%;
+	height: 4em;
+	background-color: #d15a2f!important;
+	margin-top: 8%;
+	color: white;
 }
 
 /*Termina código Gráfica*/
