@@ -49,7 +49,7 @@ a {
 	font-family: "Avenir Light"!important;
 	font-size: 14.5px;
 }
-.section-imagen1, .section-imagen2, .section-imagen3, .section-imagen4, .section-imagen5 {
+.section-imagen1, .section-imagen2, .section-imagen3, .section-imagen6 {
 	background-attachment: fixed;
 	height: 100%;
 	color: white;
@@ -154,6 +154,16 @@ footer {
 	color: white;
 	font-family: "Avenir";
 }
+.buscador {
+	background-image: url(../imagenes/buscador.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	border: 3px solid white !important;
+	text-align: center !important;
+	height: 3em;
+	width: 80%;
+}
+
 /*Termina código index*/
 
 /*Inicia código CSS para modal*/
@@ -179,6 +189,13 @@ footer {
 
 /*Inicia código registro*/
  
+.section-imagen4, .section-imagen5 {
+	height: 100%;
+	color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 #logo {
 	width: 75%;
 }
@@ -211,7 +228,6 @@ footer {
 }
 /*Termina código registro*/
 
-/*Inicia código Caseshare*/
 /*Hover imagenes*/
 .imagenCase {
 	padding: 0% !important;
@@ -468,6 +484,7 @@ img {
 }
 #regreso {
 	color: #63aab3 !important;
+	background-color: white !important;
 }
 #casoClinico {
 	margin-top: 5%;
@@ -477,6 +494,9 @@ img {
 }
 #video {
 	margin-top: 5%;
+}
+#flechas, #flechas1 {
+	background-color: white !important;
 }
 
 /*Termina código Caso*/

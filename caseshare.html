@@ -33,27 +33,40 @@
 							<li><a href="caseshare.html">CASE SHARE</a></li>
 							<li><a href="">BIBLIOTECA</a></li>
 							<li><a href="registro.html">REGISTRO</a></li>
-							<li><a data-fancybox data-src="#hidden-content" href="javascript:;">LOGIN</a></li><!--Botón del modal-->
+							<li><a href="" data-toggle="modal" data-target="#myModal">LOGIN</a></li><!--Botón del modal-->
 						</ul>
-						<ul class="nav navbar-nav navbar-right">
-							<input type="text" class="form-control" placeholder="Search">
+						<ul class="nav navbar-right">
+							<li>
+								<input type="text" class="form-control buscador" placeholder="SEARCH">
+							</li>	
 						</ul>
 					</div>
 				</nav>
-				<!--Inicia código modal-->
-				<div style="display: none;" id="hidden-content">
-					<h4 class="text-center">INICIA SESIÓN AQUÍ</h4>
-					<h1 class="text-center">LOGIN</h1>
-					<form>
-						<div class="form-group">
-							<input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="EMAIL" autofocus="" autocomplete="" required="">
+				<div class="container-fluid"><!--Inicia código modal-->
+					<div class="modal fade text-center" id="myModal" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class=" modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body">
+									<h3 class="login">INICIA SESION AQUI</h3>
+									<h4 class="login">LOGIN</h4>
+									<form action="" method="get">
+										<div class="form-group">
+											<input class="form-control" type="email" name="email" placeholder="EMAIL" autofocus="" autocomplete="" required="">
+										</div>
+										<div class="form-group">
+											<input class="form-control" type="password" name="contrasena" placeholder="CONTRASEÑA" autofocus=""  required="">
+										</div>
+										<input type="submit" class="btn btn-enviar1">
+									</form>
+								</div>
+							</div>
 						</div>
-						<div class="form-group">
-							<input type="password" class="form-control text-center" placeholder="CONTRASEÑA" autofocus="" autocomplete="" required="">
-							<button type="submit" class="btn" id="boton2">ENVIAR</button>
-						</div>					
-					</form>
-				</div><!--Termina código modal-->
+					</div>
+				</div><!-- Termina código modal -->
 			</header>
 			<section class="section-imagen4">
 				<div class="row text-center titulos">

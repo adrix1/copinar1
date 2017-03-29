@@ -33,13 +33,40 @@
 							<li><a href="caseshare.html">CASE SHARE</a></li>
 							<li><a href="">BIBLIOTECA</a></li>
 							<li><a href="registro.html">REGISTRO</a></li>
-							<li><a data-fancybox data-src="#hidden-content" href="javascript:;">LOGIN</a></li><!--Botón del modal-->
+							<li><a href="" data-toggle="modal" data-target="#myModal">LOGIN</a></li><!--Botón del modal-->
 						</ul>
-						<ul class="nav navbar-nav navbar-right">
-							<input type="text" class="form-control" placeholder="Search">
+						<ul class="nav navbar-right">
+							<li>
+								<input type="text" class="form-control buscador" placeholder="SEARCH">
+							</li>	
 						</ul>
 					</div>
 				</nav>
+				<div class="container-fluid"><!--Inicia código modal-->
+					<div class="modal fade text-center" id="myModal" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class=" modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body">
+									<h3 class="login">INICIA SESION AQUI</h3>
+									<h4 class="login">LOGIN</h4>
+									<form action="" method="get">
+										<div class="form-group">
+											<input class="form-control" type="email" name="email" placeholder="EMAIL" autofocus="" autocomplete="" required="">
+										</div>
+										<div class="form-group">
+											<input class="form-control" type="password" name="contrasena" placeholder="CONTRASEÑA" autofocus=""  required="">
+										</div>
+										<input type="submit" class="btn btn-enviar1">
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- Termina código modal -->
 			</header>
 			<section class="section-imagen5"><!--Inicia sección de background-->
 				<div class="row text-center">
@@ -68,8 +95,35 @@
 									<p>Paciente masculino de 21 años de edad, es ingresado al servicio de urgencias del INCMNSZ. Mediante interrogatorio indirecto a través de un familiar quien lo acompaña, una hora antes de acudir al hospital, refiere haber encontrado a su hermano sentado en la sala frente al televisor, con hiperextensión de la musculatura cervical y desviación cefálica hacia arriba y atrás, además desviación ocular hacia arriba y la izquierda durante aproximadamente un minuto, sin traumatismo craneoencefálico. Refiere que el paciente se encontraba sin respuesta ante estímulos vocales y movimiento por parte del familiar. El paciente refiere no recordar evento alguno con respecto a lo descrito por el familiar. <br><br><br> El paciente se refiere así mismo como sano, sin antecedentes de eventos similares al del motivo del ingreso, niega también el uso de sustancias de uso ilegal así como de toxicomanías, no refiere la ingesta de medicamentos en los últimos dos años. <br><br><br> Mediante una primera EF e interrogatorio en el servicio de urgencias, se documenta un periodo postictal de confusión de 15 minutos aproximadamente, el resto de la exploración es normal. <br><br><br> Se decide su ingreso al servicio de neurología para protocolo de estudio.</p>
 								</div>
 								<div class="col-sm-2 col-xs-2">
-									<button class="btn">CARGAR CASO CLINÍCO</button>
+									<a href="" data-toggle="modal" data-target="#myModal1"><button type="button" class="btn btn-primary btn-lg btn-block" id="casoClinico">SUBIR UN CASO</button></a>
 								</div>
+								<div class="container-fluid"><!--Inicia código modal-->
+									<div class="modal fade text-center" id="myModal1" role="dialog">
+										<div class="modal-dialog">
+											<!-- Modal content-->
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal">&times;</button>
+												</div>
+												<div class="modal-body">
+													<h3 class="login">SUBIR CASO</h3>
+													<form action="" method="get">
+														<div class="form-group">
+															<input type="nombre" class="form-control text-center" id="exampleInputNombre" placeholder="NOMBRE DEL CASO" autofocus="" autocomplete="" required="">
+														</div>
+														<div class="form-group">
+															<textarea name="mensaje" id="" style="width:100%; height: 15em;"  placeholder="DESCRIPCIÓN"></textarea>
+														</div>
+														<div class="form-group">
+															<textarea name="mensaje" id="" style="width:100%; height: 15em;"  placeholder="RESUMEN"></textarea>
+														</div>
+														<input type="submit" class="btn btn-enviar1">
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><!-- Termina código modal -->
 							</div>
 						</div>
 						<div id="paso2" class="tab-pane fade">
@@ -80,8 +134,35 @@
 									<p>Paciente masculino de 21 años de edad, es ingresado al servicio de urgencias del INCMNSZ. Mediante interrogatorio indirecto a través de un familiar quien lo acompaña, una hora antes de acudir al hospital, refiere haber encontrado a su hermano sentado en la sala frente al televisor, con hiperextensión de la musculatura cervical y desviación cefálica hacia arriba y atrás, además desviación ocular hacia arriba y la izquierda durante aproximadamente un minuto, sin traumatismo craneoencefálico. Refiere que el paciente se encontraba sin respuesta ante estímulos vocales y movimiento por parte del familiar. El paciente refiere no recordar evento alguno con respecto a lo descrito por el familiar. <br><br><br> El paciente se refiere así mismo como sano, sin antecedentes de eventos similares al del motivo del ingreso, niega también el uso de sustancias de uso ilegal así como de toxicomanías, no refiere la ingesta de medicamentos en los últimos dos años. <br><br><br> Mediante una primera EF e interrogatorio en el servicio de urgencias, se documenta un periodo postictal de confusión de 15 minutos aproximadamente, el resto de la exploración es normal. <br><br><br> Se decide su ingreso al servicio de neurología para protocolo de estudio.</p>
 								</div>
 								<div class="col-sm-2 col-xs-2">
-									<button class="btn">CARGAR CASO CLINÍCO</button>
+									<a href="" data-toggle="modal" data-target="#myModal2"><button type="button" class="btn btn-primary btn-lg btn-block" id="casoClinico">SUBIR UN CASO</button></a>
 								</div>
+								<div class="container-fluid"><!--Inicia código modal-->
+									<div class="modal fade text-center" id="myModal2" role="dialog">
+										<div class="modal-dialog">
+											<!-- Modal content-->
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal">&times;</button>
+												</div>
+												<div class="modal-body">
+													<h3 class="login">SUBIR CASO</h3>
+													<form action="" method="get">
+														<div class="form-group">
+															<input type="nombre" class="form-control text-center" id="exampleInputNombre" placeholder="NOMBRE DEL CASO" autofocus="" autocomplete="" required="">
+														</div>
+														<div class="form-group">
+															<textarea name="mensaje" id="" style="width:100%; height: 15em;"  placeholder="DESCRIPCIÓN"></textarea>
+														</div>
+														<div class="form-group">
+															<textarea name="mensaje" id="" style="width:100%; height: 15em;"  placeholder="RESUMEN"></textarea>
+														</div>
+														<input type="submit" class="btn btn-enviar1">
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><!-- Termina código modal -->
 							</div>
 						</div>
 						<div id="paso3" class="tab-pane fade">
@@ -92,8 +173,35 @@
 									<p>Paciente masculino de 21 años de edad, es ingresado al servicio de urgencias del INCMNSZ. Mediante interrogatorio indirecto a través de un familiar quien lo acompaña, una hora antes de acudir al hospital, refiere haber encontrado a su hermano sentado en la sala frente al televisor, con hiperextensión de la musculatura cervical y desviación cefálica hacia arriba y atrás, además desviación ocular hacia arriba y la izquierda durante aproximadamente un minuto, sin traumatismo craneoencefálico. Refiere que el paciente se encontraba sin respuesta ante estímulos vocales y movimiento por parte del familiar. El paciente refiere no recordar evento alguno con respecto a lo descrito por el familiar. <br><br><br> El paciente se refiere así mismo como sano, sin antecedentes de eventos similares al del motivo del ingreso, niega también el uso de sustancias de uso ilegal así como de toxicomanías, no refiere la ingesta de medicamentos en los últimos dos años. <br><br><br> Mediante una primera EF e interrogatorio en el servicio de urgencias, se documenta un periodo postictal de confusión de 15 minutos aproximadamente, el resto de la exploración es normal. <br><br><br> Se decide su ingreso al servicio de neurología para protocolo de estudio.</p>
 								</div>
 								<div class="col-sm-2 col-xs-2">
-									<button class="btn">CARGAR CASO CLINÍCO</button>
+									<a href="" data-toggle="modal" data-target="#myModal3"><button type="button" class="btn btn-primary btn-lg btn-block" id="casoClinico">SUBIR UN CASO</button></a>
 								</div>
+								<div class="container-fluid"><!--Inicia código modal-->
+									<div class="modal fade text-center" id="myModal3" role="dialog">
+										<div class="modal-dialog">
+											<!-- Modal content-->
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal">&times;</button>
+												</div>
+												<div class="modal-body">
+													<h3 class="login">SUBIR CASO</h3>
+													<form action="" method="get">
+														<div class="form-group">
+															<input type="nombre" class="form-control text-center" id="exampleInputNombre" placeholder="NOMBRE DEL CASO" autofocus="" autocomplete="" required="">
+														</div>
+														<div class="form-group">
+															<textarea name="mensaje" id="" style="width:100%; height: 15em;"  placeholder="DESCRIPCIÓN"></textarea>
+														</div>
+														<div class="form-group">
+															<textarea name="mensaje" id="" style="width:100%; height: 15em;"  placeholder="RESUMEN"></textarea>
+														</div>
+														<input type="submit" class="btn btn-enviar1">
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><!-- Termina código modal -->
 							</div>
 						</div>
 							<div class="row">

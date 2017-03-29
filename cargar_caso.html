@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">		
-		<title>NEURO_EXPERT REGISTRO</title>
+		<title>NEURO_EXPERT CARGAR CASO CLÍNICO</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
@@ -14,7 +14,7 @@
 	<body>
 		<div class="container-fluid">
 			<header>
-				<nav class="navbar navbar-default"><!-- Código del nav, falta centrar en la row -->
+				<nav class="navbar navbar-default"><!-- Código del nav -->
 					<div class="navbar-default">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
 							<span class="icon-bar"></span>
@@ -33,97 +33,55 @@
 							<li><a href="caseshare.html">CASE SHARE</a></li>
 							<li><a href="">BIBLIOTECA</a></li>
 							<li><a href="registro.html">REGISTRO</a></li>
-							<li><a href="" data-toggle="modal" data-target="#myModal">LOGIN</a></li><!--Botón del modal-->
+							<li><a data-fancybox data-src="#hidden-content" href="javascript:;">LOGIN</a></li><!--Botón del modal-->
 						</ul>
-						<ul class="nav navbar-right">
-							<li>
-								<input type="text" class="form-control buscador" placeholder="SEARCH">
-							</li>	
+						<ul class="nav navbar-nav navbar-right">
+							<input type="text" class="form-control" placeholder="Search">
 						</ul>
 					</div>
 				</nav>
-				<div class="container-fluid"><!--Inicia código modal-->
-					<div class="modal fade text-center" id="myModal" role="dialog">
-						<div class="modal-dialog">
-							<!-- Modal content-->
-							<div class="modal-content">
-								<div class=" modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-								</div>
-								<div class="modal-body">
-									<h3 class="login">INICIA SESION AQUI</h3>
-									<h4 class="login">LOGIN</h4>
-									<form action="" method="get">
-										<div class="form-group">
-											<input class="form-control" type="email" name="email" placeholder="EMAIL" autofocus="" autocomplete="" required="">
-										</div>
-										<div class="form-group">
-											<input class="form-control" type="password" name="contrasena" placeholder="CONTRASEÑA" autofocus=""  required="">
-										</div>
-										<input type="submit" class="btn btn-enviar1">
-									</form>
-								</div>
-							</div>
+				<!--Inicia código modal-->
+				<div style="display: none;" id="hidden-content">
+					<h4 class="text-center">INICIA SESIÓN AQUÍ</h4>
+					<h1 class="text-center">LOGIN</h1>
+					<form>
+						<div class="form-group">
+							<input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="EMAIL" autofocus="" autocomplete="" required="">
 						</div>
-					</div>
-				</div><!-- Termina código modal -->
+						<div class="form-group">
+							<input type="password" class="form-control text-center" placeholder="CONTRASEÑA" autofocus="" autocomplete="" required="">
+							<button type="submit" class="btn" id="boton2">ENVIAR</button>
+						</div>					
+					</form>
+				</div><!--Termina código modal-->
 			</header>
 			<section class="section-imagen4">
 				<div class="row text-center">
 					<div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
-						<h4>FAVOR DE LLENAR EL</h4>
-						<h1>REGISTRO</h1>
+						<h4>CARGAR CASO</h4>
+						<h1>CLÍNICO</h1>
 						<hr>
 					</div>
 				</div>	
 			</section><!--Termina Sección de back-->
-			<section>
+			<section class="section-imagen6">
 				<div class="container">
 					<div class="row text-center">
-						<div class="col-sm-9 col-sm-offset-5 col-xs-9 col-xs-offset-5" id="foto">
-							<img src="imagenes/foto.png" alt="Icono de una camara fotografica color blanca con fondo azul" class="img-responsive"> <br>
-							<p>AGREGAR FOTO</p>
+						<div class="col-sm-12 col-xs-12">
+							<h3>AGREGA EL CASO CLÍNICO</h3>
 						</div>
 					</div>
 					<div class="row text-center">
 						<div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
 							<form class="formulario">
 								<div class="form-group">
-									<input type="nombre" class="form-control text-center" id="exampleInputNombre" placeholder="NOMBRE" autofocus="" autocomplete="" required="">
+									<input type="nombre" class="form-control text-center" id="exampleInputNombre" placeholder="NOMBRE DEL CASO" autofocus="" autocomplete="" required="">
 								</div>
 								<div class="form-group">
-									<input type="cargo" class="form-control text-center" placeholder="ESPECIALIDAD Y CARGO" autofocus="" autocomplete="" required="">
+									<textarea name="mensaje" id="" style="width:100%; height: 15em;"  placeholder="DESCRIPCIÓN"></textarea>
 								</div>
 								<div class="form-group">
-									<input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="EMAIL" autofocus="" autocomplete="" required="">
-								</div>
-								<div class="form-group">
-									<input class="form-control text-center" type="number" name="telefono" placeholder="TELÉFONO" autofocus="" autocomplete="" required="">
-								</div>
-								<div class="form-group">
-									<input type="cedula" class="form-control text-center" placeholder="NÚMERO DE CÉDULA PROFESIONAL" autofocus="" autocomplete="" required="">
-								</div>
-								<div class="form-group">
-									<input type="password" class="form-control text-center" placeholder="CONTRASEÑA" autofocus="" autocomplete="" required="">
-								</div>
-								<div class="form-group">
-									<input type="password" class="form-control text-center" placeholder="*ESCRIBIR CONTRASEÑA DE NUEVO" autofocus="" autocomplete="" required="">
-								</div>
-								<div class="widget"><!--Buscar como funcionan los checkbox-->
-									<fieldset>
-										<label for="radio-1">RECIBIR NOTIFICACIONES</label>
-										<label for="radio-1">SI</label>
-										<input type="radio" name="radio-1" id="radio-1">
-										<label for="radio-2">NO</label>
-										<input type="radio" name="radio-2" id="radio-2">
-									</fieldset>
-									<fieldset>
-										<label for="radio-3">RECIBIR CORREOS ELÉCTRONICOS</label>
-										<label for="radio-3">SI</label>
-										<input type="radio" name="radio-3" id="radio-3">
-										<label for="radio-4">NO</label>
-										<input type="radio" name="radio-4" id="radio-4">
-									</fieldset>
+									<textarea name="mensaje" id="" style="width:100%; height: 15em;"  placeholder="RESUMEN"></textarea>
 								</div>
 								<button type="submit" class="btn" id="boton1">ENVIAR</button>
 							</form>
