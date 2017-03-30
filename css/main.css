@@ -63,6 +63,23 @@ button {
 .section-blue {
 	background-color: #21ABB5;
 	color: white;
+	position: relative;
+}
+#section-blue1 {
+	background-color: #228794;
+	color: white;
+}
+#section1 {
+	float: center;
+	left: 3%;
+}
+#section2 {
+	float: bottom;
+	top: 20% !important;
+}
+#section3 {
+	float: center;
+	left: 3%;
 }
 img {
 	display: block;
@@ -336,8 +353,6 @@ footer {
 }
 #caseshare1:hover .base{
 	opacity: 1;
-	filter: grayscale(0);
-	-webkit-filter: grayscale(0);
 }
 #caseshare2:hover .base{
 	opacity: 1;
@@ -497,6 +512,20 @@ img {
 }
 #flechas, #flechas1 {
 	background-color: white !important;
+}
+.subir-caso a {
+   position: fixed;
+   right: -50px;
+   top: 50%;
+   -ms-transform: rotate(-90deg);
+   -webkit-transform: rotate(-90deg);
+   transform: rotate(-90deg);
+   background-color: #d15a2f !important;
+   color: #fff;
+   padding: 10px;
+   width: 140px;
+   text-align: center;
+   font-weight: bold;
 }
 
 /*Termina código Caso*/
