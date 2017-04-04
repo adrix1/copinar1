@@ -3,13 +3,11 @@
 	<head>
 		<meta charset="utf-8">
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0,">		
 		<title>NEURO_EXPERT PASO 1</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/main.css">		
-		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection"/>
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -79,7 +77,7 @@
 			<section><!--Inicia Sección Descripción Perfil Clínico Paciente-->
 				<div class="container">
 					<ul class="nav nav-tabs">
-						<li class="active"><a class="pasos" data-toggle="tab" href="#paso1">PASO 1</a></li>						
+						<li class="active"><a class="pasos" data-toggle="tab" href="#paso1">PASO 1</a></li>
 						<li><a class="pasos" data-toggle="tab" href="#paso2">PASO 2</a></li>
 						<li><a class="pasos" data-toggle="tab" href="#paso3">PASO 3</a></li>
 						<ul class="nav navbar-right">
@@ -89,15 +87,13 @@
 					<div class="tab-content">
 						<div id="paso1" class="tab-pane fade in active">
 							<div class="row text-justify perfil">
-								<div class="col-sm-10 col-xs-12">
+								<div class="col-sm-12 col-xs-12">
 									<br>
 									<h3>Descripción del perfil del paciente (Padecimiento actual)</h3> <br>
 									<p>Paciente masculino de 21 años de edad, es ingresado al servicio de urgencias del INCMNSZ. Mediante interrogatorio indirecto a través de un familiar quien lo acompaña, una hora antes de acudir al hospital, refiere haber encontrado a su hermano sentado en la sala frente al televisor, con hiperextensión de la musculatura cervical y desviación cefálica hacia arriba y atrás, además desviación ocular hacia arriba y la izquierda durante aproximadamente un minuto, sin traumatismo craneoencefálico. Refiere que el paciente se encontraba sin respuesta ante estímulos vocales y movimiento por parte del familiar. El paciente refiere no recordar evento alguno con respecto a lo descrito por el familiar. <br><br><br> El paciente se refiere así mismo como sano, sin antecedentes de eventos similares al del motivo del ingreso, niega también el uso de sustancias de uso ilegal así como de toxicomanías, no refiere la ingesta de medicamentos en los últimos dos años. <br><br><br> Mediante una primera EF e interrogatorio en el servicio de urgencias, se documenta un periodo postictal de confusión de 15 minutos aproximadamente, el resto de la exploración es normal. <br><br><br> Se decide su ingreso al servicio de neurología para protocolo de estudio.</p>
-								</div>
-								<div class="col-sm-2 col-xs-2">
-									<div class="subir-caso">
-										<a href="" data-toggle="modal" data-target="#myModal1">SUBIR UN CASO</a>	
-									</div>
+								</div>							
+								<div class="subir-caso">
+									<a href="" data-toggle="modal" data-target="#myModal1">SUBIR UN CASO</a>	
 								</div>
 								<div class="container-fluid"><!--Inicia código modal-->
 									<div class="modal fade text-center" id="myModal1" role="dialog">
@@ -111,7 +107,7 @@
 													<h3 class="login">SUBIR CASO</h3>
 													<form action="" method="get">
 														<div class="form-group">
-															<input type="nombre" class="form-control text-center" id="exampleInputNombre" placeholder="NOMBRE DEL CASO" autofocus="" autocomplete="" required="">
+															<input type="nombre" class="form-control text-center" id="exampleInputNombre" placeholder="NOMBRE DEL CASO" autofocus="" 	autocomplete="" required="">
 														</div>
 														<div class="form-group">
 															<textarea name="mensaje" id="" style="width:100%; height: 15em;"  placeholder="DESCRIPCIÓN"></textarea>
@@ -130,15 +126,13 @@
 						</div>
 						<div id="paso2" class="tab-pane fade">
 							<div class="row text-justify perfil">
-								<div class="col-sm-10 col-xs-12">
+								<div class="col-sm-12 col-xs-12">
 									<br>
 									<h3>Descripción del perfil del paciente (Padecimiento actual)</h3> <br>
 									<p>Paciente masculino de 21 años de edad, es ingresado al servicio de urgencias del INCMNSZ. Mediante interrogatorio indirecto a través de un familiar quien lo acompaña, una hora antes de acudir al hospital, refiere haber encontrado a su hermano sentado en la sala frente al televisor, con hiperextensión de la musculatura cervical y desviación cefálica hacia arriba y atrás, además desviación ocular hacia arriba y la izquierda durante aproximadamente un minuto, sin traumatismo craneoencefálico. Refiere que el paciente se encontraba sin respuesta ante estímulos vocales y movimiento por parte del familiar. El paciente refiere no recordar evento alguno con respecto a lo descrito por el familiar. <br><br><br> El paciente se refiere así mismo como sano, sin antecedentes de eventos similares al del motivo del ingreso, niega también el uso de sustancias de uso ilegal así como de toxicomanías, no refiere la ingesta de medicamentos en los últimos dos años. <br><br><br> Mediante una primera EF e interrogatorio en el servicio de urgencias, se documenta un periodo postictal de confusión de 15 minutos aproximadamente, el resto de la exploración es normal. <br><br><br> Se decide su ingreso al servicio de neurología para protocolo de estudio.</p>
 								</div>
-								<div class="col-sm-2 col-xs-2">
-									<div class="subir-caso">
-										<a href="" data-toggle="modal" data-target="#myModal2">SUBIR UN CASO</a>	
-									</div>
+								<div class="subir-caso">
+									<a href="" data-toggle="modal" data-target="#myModal2">SUBIR UN CASO</a>	
 								</div>
 								<div class="container-fluid"><!--Inicia código modal-->
 									<div class="modal fade text-center" id="myModal2" role="dialog">
@@ -171,15 +165,13 @@
 						</div>
 						<div id="paso3" class="tab-pane fade">
 							<div class="row text-justify perfil">
-								<div class="col-sm-10 col-xs-12">
+								<div class="col-sm-12 col-xs-12">
 									<br>
 									<h3>Descripción del perfil del paciente (Padecimiento actual)</h3> <br>
 									<p>Paciente masculino de 21 años de edad, es ingresado al servicio de urgencias del INCMNSZ. Mediante interrogatorio indirecto a través de un familiar quien lo acompaña, una hora antes de acudir al hospital, refiere haber encontrado a su hermano sentado en la sala frente al televisor, con hiperextensión de la musculatura cervical y desviación cefálica hacia arriba y atrás, además desviación ocular hacia arriba y la izquierda durante aproximadamente un minuto, sin traumatismo craneoencefálico. Refiere que el paciente se encontraba sin respuesta ante estímulos vocales y movimiento por parte del familiar. El paciente refiere no recordar evento alguno con respecto a lo descrito por el familiar. <br><br><br> El paciente se refiere así mismo como sano, sin antecedentes de eventos similares al del motivo del ingreso, niega también el uso de sustancias de uso ilegal así como de toxicomanías, no refiere la ingesta de medicamentos en los últimos dos años. <br><br><br> Mediante una primera EF e interrogatorio en el servicio de urgencias, se documenta un periodo postictal de confusión de 15 minutos aproximadamente, el resto de la exploración es normal. <br><br><br> Se decide su ingreso al servicio de neurología para protocolo de estudio.</p>
 								</div>
-								<div class="col-sm-2 col-xs-2">
-									<div class="subir-caso">
-										<a href="" data-toggle="modal" data-target="#myModal3">SUBIR UN CASO</a>	
-									</div>
+								<div class="subir-caso">
+									<a href="" data-toggle="modal" data-target="#myModal3">SUBIR UN CASO</a>	
 								</div>
 								<div class="container-fluid"><!--Inicia código modal-->
 									<div class="modal fade text-center" id="myModal3" role="dialog">
@@ -210,157 +202,156 @@
 								</div><!-- Termina código modal -->
 							</div>
 						</div>
-							<div class="row">
-								<div class="col-sm-12 col-xs-12">
-									<hr class="perfil1" id="perfiles">
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section id="seccion2">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
-								<form action="" method="get">
-									<div class="form-group">
-										<textarea name="mensaje" id="" style="width:100%; height: 15em;" placeholder="COMENTAR"></textarea>
-									</div>
-									<div class="row text-center">
-										<div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
-											<button class="btn" id="boton">ENVIAR</button>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section><!--Inicia Secciòn de Comentarios Primer Doctor-->
-					<div class="container">
-						<div class="row perfil">
-							<div class="col-sm-6 col-xs-6">
-								<h3>COMENTARIOS</h3><br>
-								<div class="media">
-									<div class="media-left">
-										<img class="media-object"src="imagenes/neuro.jpg" alt="Foto del Neurocirujano Registrado en labase de datos">
-									</div>
-									<div class="media-body">
-										<p class="media-heading">Dr. Ricardo Morales</p>
-										<p class="media-heading">Neurocirujano</p><br><br>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row text-justify perfil">
-							<div class="col-sm-12 col-xs-12">
-								<p>Paciente masculino de 21 años de edad, es ingresado al servicio de urgencias del INCMNSZ. Mediante interrogatorio indirecto a través de un familiar quien lo acompaña, una hora antes de acudir al hospital, refiere haber encontrado a su hermano sentado en la sala frente al televisor, con hiperextensión de la musculatura cervical y desviación cefálica hacia arriba y atrás, además desviación ocular hacia arriba y la izquierda durante aproximadamente un minuto, sin traumatismo craneoencefálico. Refiere que el paciente se encontraba sin respuesta ante estímulos vocales y movimiento por parte del familiar.</p><br><br>
-								<span>RESPONDER (4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>ME GUSTA (37)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>CALIFICAR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span><img src="imagenes/stars.png" alt="Imagen con cinco estrella tres en color najarnja y dos en blanco"></span>
-								<hr class="perfil1">
-							</div>
-						</div>
-						<div class="row perfil"><!--Segundo Doctor-->
-							<div class="col-sm-6 col-xs-6">
-								<div class="media">
-									<div class="media-left">
-										<img class="media-object" src="imagenes/neuro.jpg" alt="Foto del Neurocirujano Registrado en labase de datos">
-									</div>
-									<div class="media-body">
-										<p class="media-heading">Dr. Eugenio Tabari</p>
-										<p class="media-heading">Neurocirujano</p><br><br>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="row text-justify perfil">
-							<div class="col-sm-12 col-xs-12">
-								<p>Paciente masculino de 21 años de edad, es ingresado al servicio de urgencias del INCMNSZ. Mediante interrogatorio indirecto a través de un familiar quien lo acompaña, una hora antes de acudir al hospital, refiere haber encontrado a su hermano sentado en la sala frente al televisor, con hiperextensión de la musculatura cervical y desviación cefálica hacia arriba y atrás, además desviación ocular hacia arriba y la izquierda durante aproximadamente un minuto, sin traumatismo craneoencefálico. Refiere que el paciente se encontraba sin respuesta ante estímulos vocales y movimiento por parte del familiar.</p><br><br>
-								<span>RESPONDER (4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>ME GUSTA (37)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>CALIFICAR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span><img src="imagenes/stars.png" alt="Imagen con cinco estrella tres en color najarnja y dos en blanco"></span>
-								<hr class="perfil1">
-							</div>
-						</div>				
-						<div class="row perfil"><!--Tercer Doctor-->
-							<div class="col-sm-6 col-xs-6">
-								<div class="media">
-									<div class="media-left">
-										<img class="media-object" src="imagenes/neuro.jpg" alt="Foto del Neurocirujano Registrado en labase de datos">
-									</div>
-									<div class="media-body">
-										<p class="media-heading">Dra. Iliana Mercado</p>
-										<p class="media-heading">Neurocirujano</p><br><br>
-									</div>
-								</div>						
-							</div>
-						</div>
-						<div class="row text-justify perfil">
-							<div class="col-sm-12 col-xs-12">
-								<p>Paciente masculino de 21 años de edad, es ingresado al servicio de urgencias del INCMNSZ. Mediante interrogatorio indirecto a través de un familiar quien lo acompaña, una hora antes de acudir al hospital, refiere haber encontrado a su hermano sentado en la sala frente al televisor, con hiperextensión de la musculatura cervical y desviación cefálica hacia arriba y atrás, además desviación ocular hacia arriba y la izquierda durante aproximadamente un minuto, sin traumatismo craneoencefálico. Refiere que el paciente se encontraba sin respuesta ante estímulos vocales y movimiento por parte del familiar.</p><br><br>
-								<span>RESPONDER (4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>ME GUSTA (37)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>CALIFICAR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span><img src="imagenes/stars.png" alt="Imagen con cinco estrella tres en color najarnja y dos en blanco"></span>
-								<hr class="perfil1">
-							</div>
-						</div>
 						<div class="row">
 							<div class="col-sm-12 col-xs-12">
-								<a href="caso.html"><button type="button" class="btn btn-primary btn-lg btn-block" id="casoClinico">VER CASO CLÍNICO</button></a>
+								<hr class="perfil1" id="perfiles">
 							</div>
 						</div>
-					</div>	
-				</section>			
-				<section class="section-imagen2"><!--Inicia Sección de Contácto-->
-					<div class="row text-center">
-						<div class="col-sm-12 col-xs-12">
-							<h4>CONTÁCTANOS</h4>
-							<hr>
+					</div>
+				</div>
+			</section>
+			<section id="seccion2">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+							<form action="" method="get">
+								<div class="form-group">
+									<textarea name="mensaje" id="" style="width:100%; height: 15em;" placeholder="COMENTAR"></textarea>
+								</div>
+								<div class="row text-center">
+									<div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+										<button class="btn" id="boton">ENVIAR</button>
+									</div>
+								</div>
+							</form>
 						</div>
 					</div>
-					<form action="" method="get">
-						<div class="row text-center">	
-							<div class="col-sm-6 col-xs-6">
-								<div class="form-group">
-									<input class="form-control" type="text" name="nombre" placeholder="NOMBRE" autofocus="" autocomplete="" required="">
+				</div>
+			</section>
+			<section><!--Inicia Secciòn de Comentarios Primer Doctor-->
+				<div class="container">
+					<div class="row perfil">
+						<div class="col-sm-6 col-xs-6">
+							<h3>COMENTARIOS</h3><br>
+							<div class="media">
+								<div class="media-left">
+									<img class="media-object"src="imagenes/neuro.jpg" alt="Foto del Neurocirujano Registrado en labase de datos">
+								</div>
+								<div class="media-body">
+									<p class="media-heading">Dr. Ricardo Morales</p>
+									<p class="media-heading">Neurocirujano</p><br><br>
 								</div>
 							</div>
-							<div class="col-sm-6 col-xs-6">
-								<div class="form-group">
-									<input class="form-control" type="text" name="telefono" placeholder="TELÉFONO" autofocus="" autocomplete="" required="">
+						</div>
+					</div>
+					<div class="row text-justify perfil">
+						<div class="col-sm-12 col-xs-12">
+							<p>Paciente masculino de 21 años de edad, es ingresado al servicio de urgencias del INCMNSZ. Mediante interrogatorio indirecto a través de un familiar quien lo acompaña, una hora antes de acudir al hospital, refiere haber encontrado a su hermano sentado en la sala frente al televisor, con hiperextensión de la musculatura cervical y desviación cefálica hacia arriba y atrás, además desviación ocular hacia arriba y la izquierda durante aproximadamente un minuto, sin traumatismo craneoencefálico. Refiere que el paciente se encontraba sin respuesta ante estímulos vocales y movimiento por parte del familiar.</p><br><br>
+							<span>RESPONDER (4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>ME GUSTA (37)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>CALIFICAR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span><img src="imagenes/stars.png" alt="Imagen con cinco estrella tres en color najarnja y dos en blanco"></span>
+							<hr class="perfil1">
+						</div>
+					</div>
+					<div class="row perfil"><!--Segundo Doctor-->
+						<div class="col-sm-6 col-xs-6">
+							<div class="media">
+								<div class="media-left">
+									<img class="media-object" src="imagenes/neuro.jpg" alt="Foto del Neurocirujano Registrado en labase de datos">
+								</div>
+								<div class="media-body">
+									<p class="media-heading">Dr. Eugenio Tabari</p>
+									<p class="media-heading">Neurocirujano</p><br><br>
 								</div>
 							</div>
 						</div>
-						<div class="form-group">
-							<input class="form-control" type="text" name="email" placeholder="EMAIL" autofocus="" autocomplete="" required="">
+					</div>
+					<div class="row text-justify perfil">
+						<div class="col-sm-12 col-xs-12">
+							<p>Paciente masculino de 21 años de edad, es ingresado al servicio de urgencias del INCMNSZ. Mediante interrogatorio indirecto a través de un familiar quien lo acompaña, una hora antes de acudir al hospital, refiere haber encontrado a su hermano sentado en la sala frente al televisor, con hiperextensión de la musculatura cervical y desviación cefálica hacia arriba y atrás, además desviación ocular hacia arriba y la izquierda durante aproximadamente un minuto, sin traumatismo craneoencefálico. Refiere que el paciente se encontraba sin respuesta ante estímulos vocales y movimiento por parte del familiar.</p><br><br>
+							<span>RESPONDER (4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>ME GUSTA (37)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>CALIFICAR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span><img src="imagenes/stars.png" alt="Imagen con cinco estrella tres en color najarnja y dos en blanco"></span>
+							<hr class="perfil1">
 						</div>
-						<div class="form-group">
-							<textarea name="mensaje" id="" style="width:100%; height: 15em;"  placeholder="MENSAJE"></textarea>
+					</div>				
+					<div class="row perfil"><!--Tercer Doctor-->
+						<div class="col-sm-6 col-xs-6">
+							<div class="media">
+								<div class="media-left">
+									<img class="media-object" src="imagenes/neuro.jpg" alt="Foto del Neurocirujano Registrado en labase de datos">
+								</div>
+								<div class="media-body">
+									<p class="media-heading">Dra. Iliana Mercado</p>
+									<p class="media-heading">Neurocirujano</p><br><br>
+								</div>
+							</div>						
 						</div>
-						<div class="row text-center">
-							<div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
-								<button class="btn" id="boton">ENVIAR MENSAJE</button>
+					</div>
+					<div class="row text-justify perfil">
+						<div class="col-sm-12 col-xs-12">
+							<p>Paciente masculino de 21 años de edad, es ingresado al servicio de urgencias del INCMNSZ. Mediante interrogatorio indirecto a través de un familiar quien lo acompaña, una hora antes de acudir al hospital, refiere haber encontrado a su hermano sentado en la sala frente al televisor, con hiperextensión de la musculatura cervical y desviación cefálica hacia arriba y atrás, además desviación ocular hacia arriba y la izquierda durante aproximadamente un minuto, sin traumatismo craneoencefálico. Refiere que el paciente se encontraba sin respuesta ante estímulos vocales y movimiento por parte del familiar.</p><br><br>
+							<span>RESPONDER (4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>ME GUSTA (37)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>CALIFICAR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span><img src="imagenes/stars.png" alt="Imagen con cinco estrella tres en color najarnja y dos en blanco"></span>
+							<hr class="perfil1">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 col-xs-12">
+							<a href="caso.html"><button type="button" class="btn btn-primary btn-lg btn-block" id="casoClinico">VER CASO CLÍNICO</button></a>
+						</div>
+					</div>
+				</div>	
+			</section>			
+			<section class="section-imagen2"><!--Inicia Sección de Contácto-->
+				<div class="row text-center">
+					<div class="col-sm-12 col-xs-12">
+						<h4>CONTÁCTANOS</h4>
+						<hr>
+					</div>
+				</div>
+				<form action="" method="get">
+					<div class="row text-center">	
+						<div class="col-sm-6 col-xs-6">
+							<div class="form-group">
+								<input class="form-control" type="text" name="nombre" placeholder="NOMBRE" autofocus="" autocomplete="" required="">
 							</div>
 						</div>
-					</form>
-				</section><!--Termina Sección de Contácto-->
-				<section class="section-imagen3"><!--Inicia la sección 7 Redes Sociales. Falta alinear bien la imágen y los iconos-->
-					<div class="row text-center redesSociales">
-						<div class="col-sm-12 col-xs-12">
-							<img src="imagenes/segundologo.png" alt="segundo logo blanco" class="img-responsive seg-icono">
-							<ul>
-								<li><img src="imagenes/iconoface.png" alt="redes sociales face " class="img-responsive"></li>
-								<li><img src="imagenes/tiwtter.png" alt="redes sociales twitter" class="img-responsive"></li>
-								<li><img src="imagenes/instagram.png" alt="redes sociales instagram" class="img-responsive"></li>
-							</ul>
+						<div class="col-sm-6 col-xs-6">
+							<div class="form-group">
+								<input class="form-control" type="text" name="telefono" placeholder="TELÉFONO" autofocus="" autocomplete="" required="">
+							</div>
 						</div>
 					</div>
-				</section><!--Termina la sección 7 Redes Sociales-->
-				<footer><!--Inicia Footer-->
+					<div class="form-group">
+						<input class="form-control" type="text" name="email" placeholder="EMAIL" autofocus="" autocomplete="" required="">
+					</div>
+					<div class="form-group">
+						<textarea name="mensaje" id="" style="width:100%; height: 15em;"  placeholder="MENSAJE"></textarea>
+					</div>
 					<div class="row text-center">
-						<div class="col-sm-12 col-xs-12">
-							<p>COPYRIGHT NEURO EXPERT 2017. ALL RIGHTS RESERVED</p>
-						</div>
+						<div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+						<button class="btn" id="boton">ENVIAR MENSAJE</button>
 					</div>
-				</footer><!--Termina Footer-->
-			</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+					</div>
+				</form>
+			</section><!--Termina Sección de Contácto-->
+			<section class="section-imagen3"><!--Inicia la sección 7 Redes Sociales. -->
+				<div class="row text-center redesSociales">
+					<div class="col-sm-12 col-xs-12">
+						<img class="img-responsive seg-icono" src="imagenes/segundologo.png" alt="segundo logo blanco">
+						<ul>
+							<li><img src="imagenes/iconoface.png" alt="redes sociales face " class="img-responsive"></li>
+							<li><img src="imagenes/tiwtter.png" alt="redes sociales twitter" class="img-responsive"></li>
+							<li><img src="imagenes/instagram.png" alt="redes sociales instagram" class="img-responsive"></li>
+						</ul>
+					</div>
+				</div>
+			</section><!--Termina la sección 7 Redes Sociales-->
+			<footer><!--Inicia Footer-->
+				<div class="row text-center">
+					<div class="col-sm-12 col-xs-12">
+						<p>COPYRIGHT NEURO EXPERT 2017. &nbsp;&nbsp; ALL RIGHTS RESERVED</p>
+					</div>
+				</div>
+			</footer><!--Termina Footer-->
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>			
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>

@@ -1,13 +1,17 @@
-/*Código index*/
+/********************
+ * CÓDIGO INDEX *
+ ********************/
 @font-face{
 	font-family: Avenir;
 	src: url(../fonts/AVENIR.TTC);
 }
 .container-fluid {
-	width: 1280px !important;
+	margin: 0 !important;
+	padding: 0 !important;	
 }
-.container {
-	width: 1200px !important;
+.row {
+	margin-left: 0;
+	margin-right: 0;
 }
 .header-icons {
 	float: left;
@@ -63,23 +67,7 @@ button {
 .section-blue {
 	background-color: #21ABB5;
 	color: white;
-	position: relative;
-}
-#section-blue1 {
-	background-color: #228794;
-	color: white;
-}
-#section1 {
-	float: center;
-	left: 3%;
-}
-#section2 {
-	float: bottom;
-	top: 20% !important;
-}
-#section3 {
-	float: center;
-	left: 3%;
+	padding: 5em!important;	
 }
 img {
 	display: block;
@@ -88,7 +76,7 @@ img {
 #slider2 {
 	width: 100%;
 	height: 34.8em !important;
-}	
+}
 .section-imagen1 {
 	background-image: url(../imagenes/background2.png);
 	padding: 6em;
@@ -165,6 +153,9 @@ footer {
 	width: auto;
 	height: 30%;
 }
+.viadalei {
+	position: absolute;
+}
 .secciones {
 	width: 100%;
 	background-color: #21ABB5;
@@ -180,11 +171,90 @@ footer {
 	height: 3em;
 	width: 80%;
 }
+.carousel-caption, .vidare {
+  padding-bottom: 12% !important;
+}
+/********************
+ * CÓDIGO SEGUNDO CAROUSEL *
+ ********************/
+
+#carousel {
+  height:400px !important;
+  width: 960px !important;
+  position:relative; 
+  top:-6.2em !important;
+  
+}
+.carousel-image {
+  position: absolute; 
+  height: 300px !important;
+  width: 450px !important;  
+}
+.carousel-feature {
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+  cursor:pointer;
+}
+.carousel-feature .carousel-caption {
+  position:absolute;
+  bottom:0;
+  width:100%; 
+  color: white;
+  top: 0 !important;
+  left: 0 !important;
+}
+.carousel-feature .carousel-caption {
+  margin:0;
+  font-weight:bold;
+  font-size:12px;
+  color:white;
+  top: 25% !important;
+  left: 0 !important;
+  padding: 10% !important;
+  font-size:12px;
+  font-family: "Avenir Black" !important;
+}
+.tracker-summation-container {
+  color:black;  
+}
+.tracker-individual-container {
+  color:black;
+}
+.tracker-individual-container li {
+  list-style:none;
+}
+.tracker-individual-container .tracker-individual-blip {
+  color:black;
+ }
+.tracker-individual-container .tracker-individual-blip-selected {
+  color:black; 
+}
+#carousel-left {
+  position:absolute;
+  bottom:33px;
+  left:450px !important;
+  cursor:pointer;
+}
+#carousel-right {
+  position:absolute;
+  bottom:33px;
+  right:450px !important;
+  cursor:pointer;
+}
+#cubos {
+	position: fixed;
+   right: -1px !important;
+   top: 30%;
+}
 
 /*Termina código index*/
 
-/*Inicia código CSS para modal*/
+/********************
+ * CÓDIGO CSS MODAL *
+ ********************/
 /*Modal estilos*/
+
 .btn-enviar1{
 	background-color: #EF5C2B;
 	color: white;
@@ -204,7 +274,9 @@ footer {
 }
 /*Termina código para modal*/
 
-/*Inicia código registro*/
+/********************
+ * CÓDIGO REGISTRO *
+ ********************/
  
 .section-imagen4, .section-imagen5 {
 	height: 100%;
@@ -229,7 +301,7 @@ footer {
 	background-color: #63aab3;
 	color: white;
 	height: 12em;
-	width: 15%;
+	width: 200px;
 	padding-top: 4%;
 	margin-bottom: 3%;
 	margin-top: 3%;
@@ -238,13 +310,16 @@ footer {
 	background-color: #d15a2f;
 	color: white;
 	height: 5em;
-	width: 25%;
+	width: 50%;
 }
 .form-control, formulario {
 	color: #6db0b8 !important;
 }
 /*Termina código registro*/
 
+/********************
+ * CÓDIGO CASE SHARE *
+ ********************/
 /*Hover imagenes*/
 .imagenCase {
 	padding: 0% !important;
@@ -409,11 +484,11 @@ footer {
 	
 	overflow: hidden;
 }
-#titulo {
+.titulo {
 	font-family: "Avenir Heavy" !important;
 	font-size: 41px;
 }
-#titulo1 {
+.titulo1 {
 	font-family: "Avenir Medium" !important;
 	font-size: 16px;
 }
@@ -442,7 +517,9 @@ footer {
 }
 /*Termina código Caseshare*/
 
-/*Inicia código Paso1*/
+/********************
+ * CÓDIGO PASO1*
+ ********************/
 
 .perfil {
 	color: #6db0b8;
@@ -465,8 +542,9 @@ th, td {
 
 /*Termina código Paso1*/
 
-
-/*Inicia código Caso*/
+/********************
+ * CÓDIGO CASO *
+ ********************/
 
 .section-imagen5 {
 	background-image: url(../imagenes/slider_caso.jpg);
@@ -530,7 +608,9 @@ img {
 
 /*Termina código Caso*/
 
-/*Inicia código Gráfica*/
+/********************
+ * CÓDIGO GRÁFICA *
+ ********************/
 
 .graficos {
 	width: 30%;
