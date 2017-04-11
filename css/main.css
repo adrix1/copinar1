@@ -73,8 +73,16 @@ img {
 	display: block;
 	margin: auto;
 }
+#slider1 {
+	width: 100% !important;
+	height: 34.8em !important;
+}
 #slider2 {
-	width: 100%;
+	width: 100% !important;
+	height: 34.8em !important;
+}
+#slider3 {
+	width: 100% !important;
 	height: 34.8em !important;
 }
 .section-imagen1 {
@@ -165,7 +173,8 @@ footer {
 .buscador {
 	background-image: url(../imagenes/buscador.png);
 	background-repeat: no-repeat;
-	background-position: right;
+	background-position-x: 85% !important;
+	background-position-y: 10px !important;
 	border: 3px solid white !important;
 	text-align: center !important;
 	height: 3em;
@@ -174,78 +183,104 @@ footer {
 .carousel-caption, .vidare {
   padding-bottom: 12% !important;
 }
-/********************
- * CÓDIGO SEGUNDO CAROUSEL *
- ********************/
-
-#carousel {
-  height:400px !important;
-  width: 960px !important;
-  position:relative; 
-  top:-6.2em !important;
-  
+#guias1, #guias3 {
+  position: relative;
+  top:-3.1em !important; 
 }
-.carousel-image {
-  position: absolute; 
-  height: 300px !important;
-  width: 450px !important;  
+#guias1 {  
+  left: 12%;
 }
-.carousel-feature {
-  position:absolute;
-  top:-1000px;
-  left:-1000px;
-  cursor:pointer;
+#guias2 {
+  position: absolute;
+  top: 49.4em !important;
+  right: 30%;
 }
-.carousel-feature .carousel-caption {
-  position:absolute;
-  bottom:0;
-  width:100%; 
-  color: white;
-  top: 0 !important;
-  left: 0 !important;
+#guias3 {  	
+  right: 11.2%; 
 }
-.carousel-feature .carousel-caption {
-  margin:0;
-  font-weight:bold;
-  font-size:12px;
-  color:white;
-  top: 25% !important;
-  left: 0 !important;
-  padding: 10% !important;
-  font-size:12px;
-  font-family: "Avenir Black" !important;
+#guias4 {
+  position: absolute;
+  color: white !important;  
+  margin-top: 4%;
+  font-family:  "Avenir" !important;	
+  font-size: 18px;
+  left: 21%;
 }
-.tracker-summation-container {
-  color:black;  
+#guias5 {
+  position: absolute;
+  color: white !important;  
+  margin-top: -15%;
+  font-family:  "Avenir" !important;	
+  font-size: 18px;
+  left: 43%;
 }
-.tracker-individual-container {
-  color:black;
+#guias6 {
+  position: absolute;
+  color: white !important;  
+  margin-top: -16%;
+  font-family:  "Avenir" !important;	
+  font-size: 18px;
+  left: 65%;
 }
-.tracker-individual-container li {
-  list-style:none;
+#guias7 {
+  position: absolute;
+  color: white !important;  
+  margin-top: 7%;
+  font-family:  "Avenir" !important;	
+  font-size: 12px;
+  left: 21%;
 }
-.tracker-individual-container .tracker-individual-blip {
-  color:black;
- }
-.tracker-individual-container .tracker-individual-blip-selected {
-  color:black; 
+#guias8 {
+  position: absolute;
+  color: white !important;  
+  margin-top: -12%;
+  font-family:  "Avenir" !important;	
+  font-size: 12px;
+  left: 43%;
 }
-#carousel-left {
-  position:absolute;
-  bottom:33px;
-  left:450px !important;
-  cursor:pointer;
+#guias9 {
+  position: absolute;
+  color: white !important;  
+  margin-top: -13%;
+  font-family:  "Avenir" !important;	
+  font-size: 12px;
+  left: 65%;	
 }
-#carousel-right {
-  position:absolute;
-  bottom:33px;
-  right:450px !important;
-  cursor:pointer;
+#guias10 {
+  position: absolute;
+  color: white !important;  
+  margin-top: 11.5%;
+  font-family:  "Avenir" !important;	
+  font-size: 12px;
+  left: 28%;
+}
+#guias11 {
+  position: absolute;
+  color: white !important;  
+  margin-top: -6%;
+  font-family:  "Avenir" !important;	
+  font-size: 18px;
+  left: 49.7%;
+}
+#guias12 {
+  position: absolute;
+  color: white !important;  
+  margin-top: -8.5%;
+  font-family:  "Avenir" !important;	
+  font-size: 18px;
+  left: 71.5%;
 }
 #cubos {
 	position: fixed;
    right: -1px !important;
    top: 30%;
+}
+.biblioteca {
+	position: relative;
+	display: inline-block;
+	width: 19.8% !important;
+	margin: 0 !important;
+	padding: 0 !important;	
 }
 
 /*Termina código index*/
