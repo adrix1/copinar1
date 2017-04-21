@@ -2,187 +2,203 @@
  * CÓDIGO INDEX *
  ********************/
 @font-face{
-	font-family: Avenir;
-	src: url(../fonts/AVENIR.TTC);
+  $my-font: "Avenir";	
+  src: url(../fonts/AVENIR.TTC);
+}
+* {
+  font-family: "Avenir" !important;
 }
 .container-fluid {
-	margin: 0 !important;
-	padding: 0 !important;	
+  margin: 0 !important;
+  padding: 0 !important;	
 }
 .row {
-	margin-left: 0;
-	margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 .header-icons {
-	float: left;
-	width: 10%;
-	height: auto;
+  float: left;
+  width: 10%;
+  height: auto;
 }
 #logo {
-	width: 220px !important;
+  width: 220px !important;
 }
 a {
-	text-decoration-line: none;
-	font-size: 1em;
-	color: white !important;
-	font-family: "Avenir Light" !important;
+  text-decoration-line: none;
+  font-size: 1em;
+  color: white !important;
+  font-family: "Avenir Light" !important;
 }
 #neuroxpert {
-	margin-top: 3%;
-	margin-bottom: 3%;
-	font-size: 12px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 12px;
 }
 .informacion {
-	padding: 0%;
+  padding: 0%;
 }
 .seccionblack {
-	font-family: "Avenir Black" !important;	
+  font-family: "Avenir Black" !important;	
 }
 .seccionlight {
-	font-family: "Avenir Light" !important;
+  font-family: "Avenir Light" !important;
 }
 .media-heading {
-	padding-top: 1% !important;
+  padding-top: 1% !important;
 }
 .navbar, navbar-default {
-	background-color: #63aab3;
-	color: white !important;
-	padding-bottom: 2%;
-	margin-bottom: 0%;
-	padding-top: 2%;
-	font-family: "Avenir Light"!important;
-	font-size: 14.5px;
+  background-color: #63aab3;
+  color: white !important;
+  padding-bottom: 2%;
+  margin-bottom: 0%;
+  padding-top: 2%;
+  font-family: "Avenir Light"!important;
+  font-size: 14.5px;
 }
 .section-imagen1, .section-imagen2, .section-imagen3, .section-imagen6 {
-	background-attachment: fixed;
-	height: 100%;
-	color: white;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 button {
-	border-radius: 50%;
+  border-radius: 50%;
 }
 .section-blue {
-	background-color: #21ABB5;
-	color: white;
-	padding: 5em!important;	
+  background-color: #21ABB5;
+  color: white;
+  padding: 5em!important;	
 }
 img {
-	display: block;
-	margin: auto;
+  display: block;
+  margin: auto;
 }
-#slider1 {
-	width: 100% !important;
-	height: 34.8em !important;
-}
-#slider2 {
-	width: 100% !important;
-	height: 34.8em !important;
-}
-#slider3 {
-	width: 100% !important;
-	height: 34.8em !important;
+#slider1, #slider2, #slider3, #slider4, #slider5 {
+  width: 100% !important;
+  height: 34.8em !important;
 }
 .section-imagen1 {
-	background-image: url(../imagenes/background2.png);
-	padding: 6em;
-	margin-top: 3%;
+  background-image: url(../imagenes/background2.png);
+  padding: 6em;
+  margin-top: 3%;
 }
 #boton {
-	background-color: #63aab3;
-	color: white;
-	padding: 2em;
-	font-family: "Avenir Black" !important;
-	font-size: 14px;
+  background-color: #63aab3;
+  color: white;
+  padding: 2em;
+  font-family: "Avenir Black" !important;
+  font-size: 14px;
 }
 hr {
-	width: 40%;
+  width: 40%;
 }
 h3, h5 {
-	color: #21ABB5;
+  color: #21ABB5;
 }
 h4 {
-	font-family: "Avenir Black" !important;
-	font-size: 28px;	
+  font-family: "Avenir Black" !important;
+  font-size: 28px;	
 }
 .noticias {
-	margin-top: 5%;
-	margin-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .section-imagen2 {
-	background-image: url(../imagenes/background3.png);
-	padding: 5em;
-	margin-top: 3%;	
+  background-image: url(../imagenes/background3.png);
+  padding: 5em;
+  margin-top: 3%;	
 }
 .form-control, textarea {
-	background-color: rgba(0,0,0,.075);
+  background-color: rgba(0,0,0,.075);
 }
 .section-imagen3 {
-	background-image: url(../imagenes/background4.jpg);
-	margin-top: 3%;
-	height: 20em;
+  background-image: url(../imagenes/background4.jpg);
+  margin-top: 3%;
+  height: 20em;
 }
 li {
-	display: inline-block;
+  display: inline-block;
 }
 .seg-icono {
-	padding: 1.2em;
+  padding: 1.2em;
 }
 .redesSociales {
-	padding-top: 3%;
+  padding-top: 3%;
 }
 footer {
-	background-color: #228794;
-	color: white;
-	height: 6em;
-	padding-top: 3%;
-	font-size: 12px;
-	font-family: "Avenir Medium" !important;
+  background-color: #228794;
+  color: white;
+  height: 6em;
+  padding-top: 3%;
+  font-size: 12px;
+  font-family: "Avenir Medium" !important;
 }
 #ver_mas{
-	background-color: white;
-	color: #21ABB5;
-	font-weight: bold;
-	padding: .8em;
-	border-radius: 25px;
-	font-family: "Avenir Medium" !important;
+  background-color: white;
+  color: #21ABB5;
+  font-weight: bold;
+  padding: .8em;
+  border-radius: 25px;
+  font-family: "Avenir Medium" !important;
 }
 #btn-contact{
-	background-color:  rgba(0,0,0,.075);
-	color: white;
-	border-color: white;
-	padding: .8em;
-	border-radius: 25px;
-	font-family: "Avenir Medium" !important;
+  background-color:  rgba(0,0,0,.075);
+  color: white;
+  border-color: white;
+  padding: .8em;
+  border-radius: 25px;
+  font-family: "Avenir Medium" !important;
 }
 .curita {
-	width: auto;
-	height: 30%;
+  width: auto;
+  height: 30%;
 }
 .viadalei {
-	position: absolute;
+  position: absolute;
 }
 .secciones {
-	width: 100%;
-	background-color: #21ABB5;
-	color: white;
-	font-family: "Avenir";
+  width: 100%;
+  background-color: #21ABB5;
+  color: white !important;	
 }
 .buscador {
-	background-image: url(../imagenes/buscador.png);
-	background-repeat: no-repeat;
-	background-position-x: 85% !important;
-	background-position-y: 10px !important;
-	border: 3px solid white !important;
-	text-align: center !important;
-	height: 3em;
-	width: 80%;
+  background-image: url(../imagenes/buscador.png);
+  background-repeat: no-repeat;
+  background-position-x: 85% !important;
+  background-position-y: 10px !important;
+  border: 3px solid white !important;
+  text-align: center !important;
+  height: 3em;
+  width: 80%;
 }
 .carousel-caption, .vidare {
-  padding-bottom: 12% !important;
+  padding-bottom: 12% !important;  	
 }
+.neuro {
+  font-family: "Avenir Heavy" !important;
+  font-size: 58px !important;	
+}
+.info {
+  font-family: "Avenir Medium" !important;	
+  font-size: 22px !important;	
+}
+#cubos {
+  position: fixed;
+  right: -1px !important;
+  top: 30%;
+}
+.biblioteca {
+  width: 19.5% !important;
+  text-align: center !important;	
+  position: relative;
+  display: inline-block;	
+  margin: 0 !important;
+  padding: 0 !important;	
+}
+/*
 #guias1, #guias3 {
   position: relative;
   top:-3.1em !important; 
@@ -201,16 +217,14 @@ footer {
 #guias4 {
   position: absolute;
   color: white !important;  
-  margin-top: 4%;
-  font-family:  "Avenir" !important;	
+  margin-top: 4%;  
   font-size: 18px;
   left: 21%;
 }
 #guias5 {
   position: absolute;
   color: white !important;  
-  margin-top: -15%;
-  font-family:  "Avenir" !important;	
+  margin-top: -15%; 
   font-size: 18px;
   left: 43%;
 }
@@ -218,70 +232,52 @@ footer {
   position: absolute;
   color: white !important;  
   margin-top: -16%;
-  font-family:  "Avenir" !important;	
   font-size: 18px;
   left: 65%;
 }
 #guias7 {
   position: absolute;
   color: white !important;  
-  margin-top: 7%;
-  font-family:  "Avenir" !important;	
+  margin-top: 7%; 
   font-size: 12px;
   left: 21%;
 }
 #guias8 {
   position: absolute;
   color: white !important;  
-  margin-top: -12%;
-  font-family:  "Avenir" !important;	
+  margin-top: -12%; 
   font-size: 12px;
   left: 43%;
 }
 #guias9 {
   position: absolute;
   color: white !important;  
-  margin-top: -13%;
-  font-family:  "Avenir" !important;	
+  margin-top: -13%; 
   font-size: 12px;
   left: 65%;	
 }
 #guias10 {
   position: absolute;
   color: white !important;  
-  margin-top: 11.5%;
-  font-family:  "Avenir" !important;	
+  margin-top: 11.5%; 
   font-size: 12px;
   left: 28%;
 }
 #guias11 {
   position: absolute;
   color: white !important;  
-  margin-top: -6%;
-  font-family:  "Avenir" !important;	
+  margin-top: -6%; 
   font-size: 18px;
   left: 49.7%;
 }
 #guias12 {
   position: absolute;
   color: white !important;  
-  margin-top: -8.5%;
-  font-family:  "Avenir" !important;	
+  margin-top: -8.5%; 
   font-size: 18px;
   left: 71.5%;
 }
-#cubos {
-	position: fixed;
-   right: -1px !important;
-   top: 30%;
-}
-.biblioteca {
-	position: relative;
-	display: inline-block;
-	width: 19.8% !important;
-	margin: 0 !important;
-	padding: 0 !important;	
-}
+*/
 
 /*Termina código index*/
 
@@ -291,21 +287,28 @@ footer {
 /*Modal estilos*/
 
 .btn-enviar1{
-	background-color: #EF5C2B;
-	color: white;
+  background-color: #EF5C2B;
+  color: white;
 }
 .modal-content{
-	border: 3px solid #21ABB5;
+  border: 3px solid #21ABB5;
 }
-.modal-header .close {
-  margin-top: -29px;
-  margin-right: -20px;
-  border-radius:50%; 
+.modal-header {
+  padding: 15px;
+  border: none !important;	
+}
+.modal-header .close {  
+  display: inline-block;
+  border-radius:50%;
   background-color: #008696;
   border: 1px solid #21ABB5;
 }
+button.close{
+  padding: 1% !important;
+}
 .close{
-	color: white;
+  color: white !important;
+  font-size: 15px !important;	
 }
 .noticias1 {
   padding-left: 0% !important;
@@ -318,41 +321,41 @@ footer {
  ********************/
  
 .section-imagen4, .section-imagen5 {
-	height: 100%;
-	color: white;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  height: 100%;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #logo {
-	width: 75%;
+  width: 75%;
 }
 .search {
-	padding-right: 15%;
-	margin-top: 5%;
+  padding-right: 15%;
+  margin-top: 5%;
 }
 .section-imagen4 {
-	background-image: url(../imagenes/sliderregistro.jpg);
-	height: 20em;
-	margin-bottom: 3%;
+  background-image: url(../imagenes/sliderregistro.jpg);
+  height: 20em;
+  margin-bottom: 3%;
 }
 #foto {
-	background-color: #63aab3;
-	color: white;
-	height: 12em;
-	width: 200px;
-	padding-top: 4%;
-	margin-bottom: 3%;
-	margin-top: 3%;
+  background-color: #63aab3;
+  color: white;
+  height: 12em;
+  width: 200px;
+  padding-top: 4%;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 #boton1, #boton2 {
-	background-color: #d15a2f;
-	color: white;
-	height: 5em;
-	width: 50%;
+  background-color: #d15a2f;
+  color: white;
+  height: 5em;
+  width: 50%;
 }
 .form-control, formulario {
-	color: #6db0b8 !important;
+  color: #6db0b8 !important;
 }
 /*Termina código registro*/
 
@@ -361,101 +364,101 @@ footer {
  ********************/
 /*Hover imagenes*/
 .imagenCase {
-	padding: 0% !important;
-	margin: 1%;
-	width: 23%;
-	filter: grayscale(100%);
-	-webkit-filter: grayscale(100%);
-	transition: filter 0.4s;
-	-webkit-transition: -webkit-filter 1s;
+  padding: 0% !important;
+  margin: 1%;
+  width: 23%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: filter 0.4s;
+  -webkit-transition: -webkit-filter 1s;
 }
 #caseshare1 {
-	background-image: url("../imagenes/caseshare1.jpg");
-	height: 15em !important;
-	color: white;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  background-image: url("../imagenes/caseshare1.jpg");
+  height: 15em !important;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #caseshare2 {
-	background-image: url("../imagenes/caseshare2.jpg");
-	height: 15em !important;
-	color: white;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  background-image: url("../imagenes/caseshare2.jpg");
+  height: 15em !important;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #caseshare3 {
-	background-image: url("../imagenes/caseshare3.jpg");
-	height: 15em !important;
-	color: white;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  background-image: url("../imagenes/caseshare3.jpg");
+  height: 15em !important;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #caseshare4 {
-	background-image: url("../imagenes/caseshare4.jpg");
-	height: 15em !important;
-	background-size: cover;
-	color: white;
-	background-position: center;
-	background-repeat: no-repeat;
+  background-image: url("../imagenes/caseshare4.jpg");
+  height: 15em !important;
+  background-size: cover;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #caseshare5 {
-	background-image: url("../imagenes/caseshare5.jpg");
-	height: 15em !important;
-	color: white;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  background-image: url("../imagenes/caseshare5.jpg");
+  height: 15em !important;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #caseshare6 {
-	background-image: url("../imagenes/caseshare6.jpg");
-	height: 15em !important;
-	color: white;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  background-image: url("../imagenes/caseshare6.jpg");
+  height: 15em !important;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #caseshare7 {
-	background-image: url("../imagenes/caseshare7.jpg");
-	height: 15em !important;
-	color: white;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  background-image: url("../imagenes/caseshare7.jpg");
+  height: 15em !important;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #caseshare8 {
-	background-image: url("../imagenes/caseshare8.jpg");
-	height: 15em !important;
-	color: white;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  background-image: url("../imagenes/caseshare8.jpg");
+  height: 15em !important;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #caseshare9 {
-	background-image: url("../imagenes/caseshare9.jpg");
-	height: 15em !important;
-	color: white;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  background-image: url("../imagenes/caseshare9.jpg");
+  height: 15em !important;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #caseshare10 {
-	background-image: url("../imagenes/caseshare10.jpg");
-	height: 15em !important;
-	color: white;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  background-image: url("../imagenes/caseshare10.jpg");
+  height: 15em !important;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #caseshare11 {
-	background-image: url("../imagenes/caseshare11.jpg");
-	height: 15em !important;
-	color: white;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+  background-image: url("../imagenes/caseshare11.jpg");
+  height: 15em !important;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #caseshare12 {
 	background-image: url("../imagenes/caseshare12.jpg");
@@ -466,93 +469,92 @@ footer {
 	background-repeat: no-repeat;
 }
 #caseshare1:hover .base{
-	opacity: 1;
+  opacity: 1;
 }
 #caseshare2:hover .base{
-	opacity: 1;
+  opacity: 1;
 }
 #caseshare3:hover .base{
-	opacity: 1;
+  opacity: 1;
 }
 #caseshare4:hover .base{
-	opacity: 1;
+  opacity: 1;
 }
 #caseshare5:hover .base{
-	opacity: 1;
+  opacity: 1;
 }
 #caseshare6:hover .base{
-	opacity: 1;
+  opacity: 1;
 }
 #caseshare7:hover .base{
-	opacity: 1;
+  opacity: 1;
 }
 #caseshare8:hover .base{
-	opacity: 1;
+  opacity: 1;
 }
 #caseshare9:hover .base{
-	opacity: 1;
+  opacity: 1;
 }
 #caseshare10:hover .base{
-	opacity: 1;
+  opacity: 1;
 }
 #caseshare11:hover .base{
-	opacity: 1;
+  opacity: 1;
 }
 #caseshare12:hover .base{
-	opacity: 1;
+  opacity: 1;
 }
 .base{
-  	height: 8.8em;
-  	background-color: rgba(0, 0, 000, 0.3);
-	-webkit-transition: opacity 0.3s;
-	opacity: 0;
+  height: 8.8em;
+  background-color: rgba(0, 0, 000, 0.3);
+  -webkit-transition: opacity 0.3s;
+  opacity: 0;
 }
 .titulos {
-	padding-top: 8%;
+  padding-top: 8%;
 }
 /*Termina código Imagenes*/
 .nav-tabs {
-	border-bottom: 3px solid #63aab3;	
+  border-bottom: 3px solid #63aab3;	
 }
 .nav-tabs>li {
-	margin-bottom: 0px;	
+  margin-bottom: 0px;	
 }
 .nav-tabs>li>a {
-	margin-right: 8px;
-	border: 3px solid #63aab3;
-	
-	overflow: hidden;
+  margin-right: 8px;
+  border: 3px solid #63aab3;	
+  overflow: hidden;
 }
 .titulo {
-	font-family: "Avenir Heavy" !important;
-	font-size: 41px;
+  font-family: "Avenir Heavy" !important;
+  font-size: 41px;
 }
 .titulo1 {
-	font-family: "Avenir Medium" !important;
-	font-size: 16px;
+  font-family: "Avenir Medium" !important;
+  font-size: 16px;
 }
 .vermas {
-	padding-top: 25%;
-	color: white;
-	font-family: "Avenir Black" !important;
-	font-size: 24px;
+  padding-top: 25%;
+  color: white;
+  font-family: "Avenir Black" !important;
+  font-size: 24px;
 }
 .vermas1 {
-	background-color: rgba(0, 0, 000, 0.3);	
-	color: white !important;	
-	padding: 1em;
-	border-radius: 5%;
-	text-decoration: none;
-	font-family: "Avenir Medium" !important;
-	font-size: 14px;	
+  background-color: rgba(0, 0, 000, 0.3);	
+  color: white !important;	
+  padding: 1em;
+  border-radius: 5%;
+  text-decoration: none;
+  font-family: "Avenir Medium" !important;
+  font-size: 14px;	
 }
 .pagination li a {
-	color: #63aab3 !important;
-	border: none !important;
-	font-size: 18px;
+  color: #63aab3 !important;
+  border: none !important;
+  font-size: 18px;
 }
 .pagination {
-	margin: 0;
+  margin: 0;
 }
 /*Termina código Caseshare*/
 
@@ -561,22 +563,22 @@ footer {
  ********************/
 
 .perfil {
-	color: #6db0b8;
-	margin-top: 3%;
+  color: #6db0b8;
+  margin-top: 3%;
 }
 .perfil1 {
-	width: 100%;
-	height: .2em;
-	background-color: #63aab3;
+  width: 100%;
+  height: .2em;
+  background-color: #63aab3;
 }
 #perfiles {
-	margin-top: 15%;
+  margin-top: 15%;
 }
 table {
-   width: 100%;
+  width: 100%;
 }
 th, td {
-	height: 30%;
+  height: 30%;
 }
 
 /*Termina código Paso1*/
@@ -586,63 +588,63 @@ th, td {
  ********************/
 
 .section-imagen5 {
-	background-image: url(../imagenes/slider_caso.jpg);
-	height: 20em;
-	margin-bottom: 3%;	
+  background-image: url(../imagenes/slider_caso.jpg);
+  height: 20em;
+  margin-bottom: 3%;	
 }
 #casos {
-	margin-top: 5%;
+  margin-top: 5%;
 }
 #casoclinico1 {
-	font-family: "Avenir Medium" !important;
-	font-size: 16px;
-	padding-top: 7%;
+  font-family: "Avenir Medium" !important;
+  font-size: 16px;
+  padding-top: 7%;
 }
 #casoclinico2 {
-	font-family: "Avenir Heavy" !important;
-	font-size: 41px;	
+  font-family: "Avenir Heavy" !important;
+  font-size: 41px;	
 }
 img {
-	display: inline-block;
-	margin: auto;
+  display: inline-block;
+  margin: auto;
 }
 .pasos {
-	background-color: white !important;
-	color: #63aab3 !important;
+  background-color: white !important;
+  color: #63aab3 !important;
 }
 .active a {
-	background-color: #63aab3 !important;
-	color: white !important;
+  background-color: #63aab3 !important;
+  color: white !important;
 }
 #regreso {
-	color: #63aab3 !important;
-	background-color: white !important;
+  color: #63aab3 !important;
+  background-color: white !important;
 }
 #casoClinico {
-	margin-top: 5%;
-	margin-bottom: 5%;
-	background-color: #d15a2f;
-	color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #d15a2f;
+  color: white;
 }
 #video {
-	margin-top: 5%;
+  margin-top: 5%;
 }
 #flechas, #flechas1 {
-	background-color: white !important;
+  background-color: white !important;
 }
 .subir-caso a {
-   position: fixed;
-   right: -50px;
-   top: 50%;
-   -ms-transform: rotate(-90deg);
-   -webkit-transform: rotate(-90deg);
-   transform: rotate(-90deg);
-   background-color: #d15a2f !important;
-   color: #fff;
-   padding: 10px;
-   width: 140px;
-   text-align: center;
-   font-weight: bold;
+  position: fixed;
+  right: -50px;
+  top: 50%;
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  background-color: #d15a2f !important;
+  color: #fff;
+  padding: 10px;
+  width: 140px;
+  text-align: center;
+  font-weight: bold;
 }
 
 /*Termina código Caso*/
@@ -652,21 +654,21 @@ img {
  ********************/
 
 .graficos {
-	width: 30%;
-	height: 3em;
-	background-color: #63aab3;
+  width: 30%;
+  height: 3em;
+  background-color: #63aab3;
 }
 .graficos1 {
-	width: 30%;
-	height: 3em;
-	background-color: #d15a2f;
+  width: 30%;
+  height: 3em;
+  background-color: #d15a2f;
 }
 #regreso2 {
-	width: 50%;
-	height: 4em;
-	background-color: #d15a2f!important;
-	margin-top: 8%;
-	color: white;
+  width: 50%;
+  height: 4em;
+  background-color: #d15a2f!important;
+  margin-top: 8%;
+  color: white;
 }
 
 /*Termina código Gráfica*/
