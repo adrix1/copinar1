@@ -1,6 +1,7 @@
 /********************
  * CÓDIGO INDEX *
  ********************/
+
 @font-face{
   $my-font: "Avenir";	
   src: url(../fonts/AVENIR.TTC);
@@ -22,10 +23,12 @@
   height: auto;
 }
 #logo {
-  width: 220px !important;
+  width: 182px !important;
+  margin-right: 50px;
+  margin-left: 35px;
 }
 a {
-  text-decoration-line: none;
+  text-decoration: none !important;
   font-size: 1em;
   color: white !important;
   font-family: "Avenir Light" !important;
@@ -35,8 +38,15 @@ a {
   margin-bottom: 3%;
   font-size: 12px;
 }
+.controles {
+  padding-top: 225px;	
+}
 .informacion {
   padding: 0%;
+}
+.contactos {
+  margin: 0 !important;
+  text-decoration: none !important;
 }
 .seccionblack {
   font-family: "Avenir Black" !important;	
@@ -145,12 +155,13 @@ footer {
   font-family: "Avenir Medium" !important;
 }
 #btn-contact{
-  background-color:  rgba(0,0,0,.075);
+  background-color: rgba(0,0,0,.075) !important;
   color: white;
   border-color: white;
   padding: .8em;
   border-radius: 25px;
   font-family: "Avenir Medium" !important;
+  overflow: hidden;	
 }
 .curita {
   width: auto;
@@ -197,6 +208,15 @@ footer {
   display: inline-block;	
   margin: 0 !important;
   padding: 0 !important;	
+}
+#boton3 {
+  position: absolute;
+  top: 150px;
+  left: 230px;
+  padding: 21px;	
+}
+#pacientes {
+  margin-top: 70px;	
 }
 /*
 #guias1, #guias3 {
@@ -327,9 +347,6 @@ button.close{
   background-repeat: no-repeat;
   background-size: cover;
 }
-#logo {
-  width: 75%;
-}
 .search {
   padding-right: 15%;
   margin-top: 5%;
@@ -348,9 +365,11 @@ button.close{
   margin-bottom: 3%;
   margin-top: 3%;
 }
-#boton1, #boton2 {
+#boton1, #boton2, #boton3 {
   background-color: #d15a2f;
   color: white;
+}
+#boton1, #boton2 {  
   height: 5em;
   width: 50%;
 }
