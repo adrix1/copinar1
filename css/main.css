@@ -98,7 +98,7 @@ img {
 #boton {
   background-color: #63aab3;
   color: white;
-  padding: 2em;
+  padding: 23px;
   font-family: "Avenir Black" !important;
   font-size: 14px;
 }
@@ -190,7 +190,7 @@ footer {
 }
 .neuro {
   font-family: "Avenir Heavy" !important;
-  font-size: 58px !important;	
+  font-size: 40px !important;	
 }
 .info {
   font-family: "Avenir Medium" !important;	
@@ -201,19 +201,36 @@ footer {
   right: -1px !important;
   top: 30%;
 }
-.biblioteca {
-  width: 19.5% !important;
-  text-align: center !important;	
-  position: relative;
-  display: inline-block;	
-  margin: 0 !important;
-  padding: 0 !important;	
+.bibliotecas {
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 244px !important;	
+}
+.biblioteca1, .biblioteca2, .biblioteca3, .biblioteca4, .biblioteca5 {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+}
+.biblioteca1 {
+
+}
+.biblioteca2 {
+ 
+}
+.biblioteca3 {
+ 
+}
+.biblioteca4 {
+
+}
+.biblioteca5 {
+ 
 }
 #boton3 {
   position: absolute;
   top: 150px;
   left: 230px;
-  padding: 21px;	
+  padding: 21px;
 }
 #pacientes {
   margin-top: 70px;	
@@ -357,13 +374,14 @@ button.close{
   margin-bottom: 3%;
 }
 #foto {
+  display: inline-block;	
   background-color: #63aab3;
   color: white;
-  height: 12em;
+  height: 200px;
   width: 200px;
-  padding-top: 4%;
-  margin-bottom: 3%;
-  margin-top: 3%;
+  padding: 3%;
+  margin-top: 35px;
+  margin-bottom: 35px;	
 }
 #boton1, #boton2, #boton3 {
   background-color: #d15a2f;
@@ -375,6 +393,9 @@ button.close{
 }
 .form-control, formulario {
   color: #6db0b8 !important;
+}
+#mensaje {
+  padding: 0 !important;	
 }
 /*Termina código registro*/
 
