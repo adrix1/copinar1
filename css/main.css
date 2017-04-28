@@ -184,6 +184,7 @@ footer {
   text-align: center !important;
   height: 3em;
   width: 80%;
+	color: white;
 }
 .carousel-caption, .vidare {
   padding-bottom: 12% !important;  	
@@ -315,6 +316,9 @@ footer {
   left: 71.5%;
 }
 */
+input.form-control.buscador::placeholder {
+  color: white;
+}
 
 /*Termina código index*/
 
